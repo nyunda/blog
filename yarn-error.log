@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Daniel\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\laragon\bin\cmder\bin;C:\laragon\bin\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\laragon\bin\cmder\bin;C:\laragon\bin\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\laragon\bin\cmder\vendor\conemu-maximus5;C:\laragon\bin\cmder\vendor\conemu-maximus5\ConEmu;C:\Python27\;C:\Python27\Scripts;C:\laragon\bin\php\php-7.1.5-Win32-VC14-x64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files (x86)\Windows Live\Shared;C:\Users\Daniel\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files (x86)\Skype\Phone\;C:\Users\Daniel\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\Daniel\AppData\Local\Programs\Python\Python35\;C:\Users\Daniel\AppD;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Daniel\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Microsoft SQL Server\Nouveau dossier\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Nouveau dossier\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Nouveau dossier\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Nouveau dossier\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\Nouveau dossier\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Daniel\AppData\Roaming\local\bin;C:\laragon\bin\sublime_text;C:\laragon\bin;C:\laragon\bin\apache\httpd-2.4.35-win32-VC15\bin;C:\laragon\bin\composer;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\mingw32\bin;C:\laragon\bin\git\usr\bin;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.19-winx64\bin;C:\laragon\bin\nginx\nginx-1.12.0;C:\laragon\bin\ngrok;C:\laragon\bin\nodejs\node-v10;C:\laragon\bin\notepad++;C:\laragon\bin\php\php-7.2.11-Win32-VC15-x86;C:\laragon\bin\putty;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\telnet;C:\laragon\bin\yarn\bin;C:\laragon\usr\bin;C:\Users\Daniel\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\Daniel\AppData\Roaming\Composer\vendor\bin;C:\Users\Daniel\AppData\Roaming\npm;C:\Users\Daniel\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\Daniel\AppData\Local\Programs\Python\Python35\;C:\Users\Daniel\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Oracle\VirtualBox;C:\Program Files\Java\jdk1.8.0_92\bin;C:\Program Files\Java\jre1.8.0_101\bin;C:\Users\Daniel\AppData\Local\Programs\Python\Python35;C:\Users\Daniel\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Program Files\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\Daniel\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Daniel\AppData\Local\Programs\Fiddler;E:\rubyinstaller-2.5.1-2-x64\rubyinstaller-2.5.1-2-x64\bin;;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\laragon\bin\cmder\;C:\laragon\bin\cmder\..\git\usr\bin;C:\laragon\bin\cmder\..\git\usr\share\vim\vim74;C:\laragon\bin\cmder\
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  8.9.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/core-js/-/core-js-3.0.1.tgz: ENOENT: no such file or directory, open 'C:\Users\Daniel\AppData\Local\Yarn\Cache\v4\npm-core-js-3.0.1-1343182634298f7f38622f95e73f54e48ddf4738\node_modules\core-js\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+      "private": true,
+      "scripts": {
+          "local": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --env=local --config=node_modules/laravel-mix/setup/webpack.config.js",
+          "staging": "cross-env NODE_ENV=staging node_modules/webpack/bin/webpack.js --progress --hide-modules --env=staging --config=node_modules/laravel-mix/setup/webpack.config.js",
+          "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
+          "dev": "npm run local",
+          "watch": "npm run local -- --watch"
+      },
+      "devDependencies": {
+          "axios": "^0.18.0",
+          "browser-sync": "^2.26.3",
+          "browser-sync-webpack-plugin": "^2.0.1",
+          "cross-env": "^3.2.3",
+          "extra-watch-webpack-plugin": "^1.0.3",
+          "fuse.js": "^3.3.0",
+          "hasbin": "^1.2.3",
+          "highlight.js": "^9.13.1",
+          "laravel-mix": "^4.0.0",
+          "laravel-mix-purgecss": "^3.0.0",
+          "node-cmd": "^3.0.0",
+          "sass": "^1.15.2",
+          "sass-loader": "^7.1.0",
+          "tailwindcss": "^0.7.2",
+          "vue": "^2.5.21",
+          "vue-template-compiler": "^2.5.21",
+          "yargs": "^4.6.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
