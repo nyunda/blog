@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-1 justify-end items-center text-right px-4">
         <div
-            class="absolute md:relative w-full justify-end bg-white pin-l pin-t z-10 mt-7 md:mt-0 px-4 md:px-0"
+            class="absolute md:relative w-full justify-end bg-white pin-l pin-t z-10 mt-7 md:mt-0 pl-2 pr-4 mx-2 md:px-0"
             :class="{'hidden md:flex': ! searching}"
         >
             <label for="search" class="hidden">Search</label>
@@ -10,11 +10,11 @@
                 id="search"
                 v-model="query"
                 ref="search"
-                class="transition-fast relative block h-10 w-full lg:w-1/2 lg:focus:w-3/4 bg-grey-lightest border border-grey focus:border-blue-light outline-none cursor-pointer text-grey-darker px-4 pb-0"
+                class="transition-fast relative block h-10 w-full lg:w-1/2 lg:focus:w-3/4 bg-grey-lightest focus:border-blue-light outline-none cursor-pointer text-grey-darker px-4 pb-0"
                 :class="{ 'transition-border': query }"
                 autocomplete="off"
                 name="search"
-                placeholder="Search"
+                placeholder="Search articles"
                 type="text"
                 @keyup.esc="reset"
                 @blur="reset"
@@ -22,7 +22,7 @@
 
             <button
                 v-if="query || searching"
-                class="absolute pin-t pin-r h-10 font-light text-3xl text-blue hover:text-blue-dark focus:outline-none -mt-px pr-7 md:pr-3"
+                class="absolute pin-t pin-r h-10 font-light text-3xl text-blue hover:text-zuzana-green focus:outline-none -mt-px pr-7 md:pr-3"
                 @click="reset"
             >&times;</button>
 
@@ -107,7 +107,7 @@ input[name='search'] {
     background-image: url('/assets/img/magnifying-glass.svg');
     background-position: 0.8em;
     background-repeat: no-repeat;
-    border-radius: 25px;
+    border-radius: 5px;
     text-indent: 1.2em;
 }
 
