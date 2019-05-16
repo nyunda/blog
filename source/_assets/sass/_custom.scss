@@ -1,0 +1,44 @@
+.heading {
+    font-size: 3rem;
+    margin-left: -20px;
+    z-index: -5;
+    margin-bottom: 0;
+    // color: #e3ecf6;
+    color: #819dc3;
+}
+
+.heading-secondary {
+    font-size: 2.25rem;
+    margin-left: 45px;
+    margin-top: 0;
+    z-index: -5;
+    margin-bottom: 0;
+    color: #819dc3;
+    // color: #e2e8ee;
+}
+
+@media (min-width: 770px) and (max-width: 1058px) {
+    .heading {
+        margin-left: -20px;
+        margin-bottom: 0;
+        font-size: 4rem;
+    }
+
+    .heading-secondary {
+        margin-top: -20px;
+        font-size: 3rem;
+    }
+}
+
+@media(min-width: 1059px) {
+    .heading {
+        margin-left: -70px;
+        font-size: 5rem;
+    }
+
+    .heading-secondary {
+        margin-top: -20px;
+        font-size: 4rem;
+        margin-left: 70px;
+    }
+}
