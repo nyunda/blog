@@ -1,7 +1,7 @@
 ---
 pagination:
     collection: posts
-    perPage: 3
+    perPage: 4
 ---
 @extends('_layouts.master')
 
@@ -13,9 +13,23 @@ pagination:
 @endpush
 
 @section('body')
-    <h1>Articles</h1>
+    <div class="mb-16">
+        <h1 class="heading">Articles</h1>
 
-    <hr class="border-b my-6">
+        <div class="md:w-4/5 mb-2 mt-6">
+            @if ($categories)
+                @foreach ($categories as $category)
+                    <a
+                        href="{{ '/blog/categories/' . $category->slug }}"
+                        title="Articles concernant {{ $category->slug }}"
+                        class="mb-2 inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-blue hover:text-blue uppercase text-xs font-semibold rounded mr-4 px-3 py-1 pt-py"
+                    >{{ $category->title }}</a>
+                @endforeach
+            @endif
+        </div>
+
+        <hr class="border-b my-6">
+    </div>
 
     @foreach ($pagination->items as $post)
         @include('_components.post-preview-inline')
