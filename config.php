@@ -1,11 +1,10 @@
 <?php
-setlocale(LC_TIME, "fr_FR","French");
 
 return [
     'baseUrl' => '',
     'production' => false,
     'siteName' => 'NYUNDA.DEV',
-    'siteDescription' => 'Découvrir et faire découvrir',
+    'siteDescription' => 'Apprendre, Découvrir ou/et faire découvrir concernant le dev, tout dépend de toi...',
     'siteAuthor' => 'Daniel Rubango',
 
     // collections
@@ -27,6 +26,8 @@ return [
 
     // helpers
     'getDate' => function ($page) {
+        setlocale(LC_TIME, "fr_FR","French");
+
         return Datetime::createFromFormat('U', $page->date);
     },
     'getExcerpt' => function ($page, $length = 255) {
