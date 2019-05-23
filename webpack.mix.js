@@ -20,6 +20,8 @@ mix.webpackConfig({
 
 mix.js('source/_assets/js/main.js', 'js')
     .sourceMaps()
+    // .js('source/_assets/js/turbolinks.js', 'js')
+    // .sourceMaps()
     .sass('source/_assets/sass/main.scss', 'css/main.css')
     .sourceMaps()
     .options({

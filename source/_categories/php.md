@@ -5,4 +5,4 @@ slug: php
 description: Articles concernant le langage PHP.
 ---
 
-Ces articles concernant l'apprentissage du PHP, le développement d'applications en PHP, etc.
+Ces articles concernent l'apprentissage du PHP, le développement d'applications en PHP, etc.

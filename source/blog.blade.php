@@ -28,7 +28,8 @@ pagination:
             @endif
         </div>
 
-        <hr class="border-b my-6">
+        <hr class="border-b my-8">
+        {{-- <hr class="border-b my-6"> --}}
     </div>
 
     @foreach ($pagination->items as $post)

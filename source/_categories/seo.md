@@ -5,4 +5,4 @@ slug: seo
 description: Articles concernant le SEO.
 ---
 
-Ces articles concernant le référencement dans les moteurs de recherche.
+Ces articles concernent le référencement dans les moteurs de recherche.

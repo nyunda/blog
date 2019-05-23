@@ -1,8 +1,8 @@
 ---
 extends: _layouts.category
-title: Autres
-slug: autres
-description: Articles concernant toutes autres choses non catégorisées.
+title: Laravel
+slug: laravel
+description: Articles concernant le framework Laravel.
 ---
 
-Ces articles concernant toutes autres choses non catégorisées.
+Ces articles concernent le framework PHP Laravel.

@@ -2,7 +2,7 @@
 setlocale(LC_TIME, "fr_FR","French");
 
 return [
-    'baseUrl' => 'https://nyunda.dev',
+    'baseUrl' => '',
     'production' => false,
     'siteName' => 'NYUNDA.DEV',
     'siteDescription' => 'Découvrir et faire découvrir',

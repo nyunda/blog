@@ -4,7 +4,7 @@
             class="absolute md:relative w-full justify-end bg-white pin-l pin-t z-10 mt-7 md:mt-0 pl-2 pr-4 mx-2 md:px-0"
             :class="{'hidden md:flex': ! searching}"
         >
-            <label for="search" class="hidden">Search</label>
+            <label for="search" class="hidden">RECHERCHER</label>
 
             <input
                 id="search"
@@ -14,7 +14,7 @@
                 :class="{ 'transition-border': query }"
                 autocomplete="off"
                 name="search"
-                placeholder="Search articles"
+                placeholder="RECHERCHER DES ARTICLES"
                 type="text"
                 @keyup.esc="reset"
                 @blur="reset"
