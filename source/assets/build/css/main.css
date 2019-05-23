@@ -919,6 +919,37 @@ p img {
   background-color: #3490dc;
 }
 
+a {
+  transition: all .2s ease-in-out;
+}
+
+p a {
+  position: relative;
+  z-index: 1;
+}
+
+p a::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: -0.05em;
+  right: -0.05em;
+  background-color: #b6d4f1;
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  -webkit-transform: scaleY(.1);
+          transform: scaleY(.1);
+  transition: all .2s ease-in-out;
+}
+
+p a:hover::before {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+  background-color: rgba(182, 212, 241, .75);
+}
+
 .heading {
   font-size: 3rem;
   margin-left: -20px;

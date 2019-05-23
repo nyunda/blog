@@ -1,3 +1,32 @@
+a {
+    transition: all 0.2s ease-in-out;
+}
+
+p a {
+    position: relative;
+    z-index: 1;
+}
+
+p a::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: -0.05em;
+    right: -0.05em;
+    background-color: hsla(210, 68%, 83%, 1);
+    transform-origin: bottom center;
+    transform: scaleY(0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+p a:hover::before {
+    transform: scaleY(1);
+    background-color: hsla(210, 68%, 83%, 0.75);
+    // background-color: hsla(341, 97%, 59%, 0.75);
+}
+
 .heading {
     font-size: 3rem;
     margin-left: -20px;

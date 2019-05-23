@@ -1,2 +1,0 @@
-<?php $__env->startSection('content'); ?><p>Ces articles concernent l'apprentissage du PHP, le développement d'applications en PHP, etc.</p><?php $__env->stopSection(); ?>
-<?php echo $__env->make('_layouts.category', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
