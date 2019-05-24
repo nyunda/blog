@@ -1,7 +1,7 @@
 ---
 extends: _layouts.post
 section: content
-title: Quesques astuces pour se faciliter la vie avec le JavaScript
+title: Quelques astuces pour se faciliter la vie avec le JavaScript
 date: 2019-05-23
 description: Présentation de quelques trucs et astuces peu connus, mais pouvant vous faciliter grandement la tâche.
 cover_image: /assets/img/post-cover-image-2.png
