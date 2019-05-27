@@ -7,7 +7,7 @@
                         <a
                             href="{{ '/blog/categories/' . $category }}"
                             title="Articles concernant {{ $category }}"
-                            class="mb-2 inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-blue hover:text-blue uppercase text-xs font-semibold rounded mr-4 px-3 py-1 pt-py"
+                            class="mb-2 inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-blue-600 hover:text-blue-800 uppercase text-xs font-semibold rounded mr-4 px-3 py-1 pt-py"
                         >{{ $category }}</a>
                     @endforeach
                 @endif
@@ -21,7 +21,7 @@
                 >{{ $post->title }}</a>
             </h2>
 
-            <p class="text-grey-darker font-medium my-2">
+            <p class="text-gray-600 font-medium my-2">
                 {{ $post->getDate()->format('F j, Y') }}
             </p>
 

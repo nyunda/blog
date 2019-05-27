@@ -1,13 +1,11 @@
-@extends('_layouts.master')
-
-@push('meta')
-    <meta property="og:title" content="Contact {{ $page->siteName }}" />
+<?php $__env->startPush('meta'); ?>
+    <meta property="og:title" content="Contact <?php echo e($page->siteName); ?>" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ $page->getUrl() }}"/>
-    <meta property="og:description" content="Get in touch with {{ $page->siteName }}" />
-@endpush
+    <meta property="og:url" content="<?php echo e($page->getUrl()); ?>"/>
+    <meta property="og:description" content="Get in touch with <?php echo e($page->siteName); ?>" />
+<?php $__env->stopPush(); ?>
 
-@section('body')
+<?php $__env->startSection('body'); ?>
 <h1 class="heading">Me contacter</h1>
 
 <div class="md:w-4/5 md:m-auto">
@@ -76,4 +74,6 @@
         </div>
     </form>
 </div>
-@stop
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('_layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\Daniel\workspace\Projects\nyunda/source\contact.blade.php ENDPATH**/ ?>
