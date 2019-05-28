@@ -25,19 +25,23 @@ categories: [php, developpement]
 Les fonctions fléchées, que j'apprécie tant depuis que c'est apparu dans le JavaScript, permet de declarer des fonctions en une seule ligne.
 
 ```php
+
 array_map(function (User $user) {
     return $user->id;
 }, $users)
+
 ```
 
 ```php
+
 array_map(fn(User $user) => $user->id, $users)
+
 ```
 
 Tout comme dans le JavaScript, les fonctions fléchées ont quelques particularités:
 
 -  Les variables de l'environnement parent y sont accessible, pas besoin d'utiliser le mot clé `use`.
--  `$this`  is available just like normal closures.
+-  `$this`  y est accessible comme dans les autres fonctions.
 -  Les fonctions fléchées ne peuvent contenir qu'une seule et unique ligne, qui représente aussi le retour de fonction.
 
 Un article beaucoup plus détaillé concernant les fonctions fléchées est en préparation.
@@ -47,12 +51,14 @@ Un article beaucoup plus détaillé concernant les fonctions fléchées est en p
 Les variables de classes pourront être typées :
 
 ```php
+
 class A
 {
     public string $nom;
 
     public Foo $bar;
 }
+
 ```
 
 ## Opérateur d'association en cas de valeur nulle [RFC](https://wiki.php.net/rfc/null_coalesce_equal_operator) {#operateur-d-assiociation}
@@ -60,12 +66,15 @@ class A
 Au lieu de faire ceci :
 
 ```php
+
 $data['date'] = $data['date'] ?? new DateTime();
+
 ```
 
 Il est possible de faire comme ceci :
 
 ```php
+
 $data['date'] ??= new DateTime();
 
 ```
@@ -75,6 +84,7 @@ $data['date'] ??= new DateTime();
 Ce serait possible d'utiliser l'opérateur de décomposition de tableau en PHP :
 
 ```php
+
 $tableau1= [1, 2, 3];
 
 $tableau2 = [4, 5];
@@ -103,24 +113,30 @@ Le gain en performance apporte avec lui un coût, pas le moindre: s'il y a des m
 En codant quelque chose de semblable à ceci:
 
 ```php
+
 echo "sum: " . $a + $b;
+
 ```
 
 PHP interprété précédemment comme suit:
 
 ```php
+
 echo ("sum: " . $a) + $b;
+
 ```
 
 PHP 8 interprétera comme suit:
 
 ```php
+
 echo "sum :" . ($a + $b);
+
 ```
 
 PHP 7.4 avertira lorsqu'il rencontrera un expression non mise en parenthèse et contenant un '.' avant un '+' ou un '-'.
 
-## `mb_str_split` ajouté [RFC](https://wiki.php.net/rfc/mb_str_split)
+## Fonction `mb_str_split` ajoutée [RFC](https://wiki.php.net/rfc/mb_str_split)
 
 Cette fonction apporte les même fonctionnalités que la fonction  `str_split`, mais sur des chaines de caractères à plusieurs octets.
 
