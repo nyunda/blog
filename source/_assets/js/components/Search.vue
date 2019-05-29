@@ -4,17 +4,17 @@
             class="absolute md:relative w-full justify-end bg-white pin-l pin-t z-10 mt-7 md:mt-0 pl-2 pr-4 mx-2 md:px-0"
             :class="{'hidden md:flex': ! searching}"
         >
-            <label for="search" class="hidden">Search</label>
+            <label for="search" class="hidden">RECHERCHER</label>
 
             <input
                 id="search"
                 v-model="query"
                 ref="search"
-                class="transition-fast relative block h-10 w-full lg:w-1/2 lg:focus:w-3/4 bg-grey-lightest focus:border-blue-light outline-none cursor-pointer text-grey-darker px-4 pb-0"
+                class="transition-fast relative block h-10 w-full lg:w-1/2 md:focus:w-3/4 bg-gray-100 focus:border-blue-400 outline-none cursor-pointer text-gray-800 px-4 pb-0"
                 :class="{ 'transition-border': query }"
                 autocomplete="off"
                 name="search"
-                placeholder="Search articles"
+                placeholder="RECHERCHER DES ARTICLES"
                 type="text"
                 @keyup.esc="reset"
                 @blur="reset"

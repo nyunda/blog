@@ -4,19 +4,25 @@
     <meta property="og:title" content="About {{ $page->siteName }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ $page->getUrl() }}"/>
-    <meta property="og:description" content="A little bit about {{ $page->siteName }}" />
+    <meta property="og:description" content="Un peu de détail sur {{ $page->siteName }}" />
 @endpush
 
 @section('body')
-    <h1 class="heading">About</h1>
+<div class="md:w-4/5 mb-20">
+	<h1 class="heading">A propos de moi</h1>
 
-{{--     <img src="/assets/img/about.png"
-        alt="Image à propos de moi"
-        class="flex rounded-full h-64 w-64 bg-contain mx-auto md:float-right my-6 md:ml-10"> --}}
+    <img src="/assets/img/about.png" alt="Image à propos de moi" class="flex rounded-full h-64 w-64 bg-contain mx-auto md:float-right my-6 md:ml-10">
 
-    <p class="mb-6">This is where you can give a little more information about yourself or site. If you'd like to change the structure of this page, you can find the file at <code>source/about.blade.php</code></p>
+    <p class="mb-6">On m'appelle Daniel Rubango et je suis un développeur web, résidant à Kinshasa, travaillant chez <a href="https:\\www.schoolap.com">Schoolap sarl</a> à temps partiel et en freelance depuis chez moi.</p>
 
-    <p class="mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia dolorem accusantium veniam quae, possimus, temporibus explicabo magni voluptas. fugit natus deserunt atque veniam possimus earum harum itaque est!</p>
+    <p class="mb-6">J'utilise principalement comme langage de programmation PHP et le framework Laravel, ainsi JavaScript avec React et VueJs comme framework de prédilection.</p>
 
-    <p class="mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia dolorem accusantium veniam quae, possimus, temporibus explicabo magni voluptas. fugit natus deserunt atque veniam!</p>
+    <p class="mb-6">Passionné des nouvelles technologies, j’aime apprendre et développer me compétences tout en dépensant mon temps à me mettre à jour avec les dernières informations technologiques ou réfléchissant et développant des projets persos pouvant apporter des solutions réelles aux gens.</p>
+
+    <p class="mb-6">J’apprécie être impliquer dans différentes étapes des projets concernant le numérique, partant de la réflexion de l’idée, passant par l’analyse et la conception jusqu'au développement et la maintenance. Je suis donc apte à intégrer une équipe quelle que soit le niveau de réalisation du projet ou de prendre un projet, de la conception à la réalisation.</p>
+
+    <p class="mb-6">J’adore partager mes connaissances, mes découvertes et ma petite expérience, cherchant à inspirer, encourager autant que je peux la communauté de dev, d’où la création de ce blog qui me permettra de partager ce que je découvre.</p>
+
+    <p class="mb-6">En dehors de mon travail et du code, je suis prédicateur à plein temps chez les témoins de Jéhovah et j’aime aider mon prochain à découvrir des vérités pouvant lui donner accès à une paix véritable, ce que je fais en partageant la bonne parole.</p>
+</div>
 @endsection

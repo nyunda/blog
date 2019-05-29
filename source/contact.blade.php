@@ -15,7 +15,11 @@
         Pour vos questions, vos avis ou toute autre chose qui vous passe par la tête, je suis prêt et impatient de vous lire, profiter de votre compagnie et partager ma petite expérience.
     </p>
 
-    <form action="/contact" class="mt-20">
+    <form action="/success" method="post" class="mt-20" name="contact" netlify-honeypot="bot-field" netlify>
+        <p class="hidden">
+            <label>Ne pas remplir si tu es humain: <input name="bot-field"></label>
+        </p>
+
         <div class="flex flex-wrap mb-6 -mx-3">
             <div class="w-full md:w-1/2 mb-6 md:mb-0 px-3">
                 <label class="block mb-2 text-grey-darkest text-sm font-semibold" for="contact-name">

@@ -22,13 +22,14 @@ pagination:
                     <a
                         href="{{ '/blog/categories/' . $category->slug }}"
                         title="Articles concernant {{ $category->slug }}"
-                        class="mb-2 inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-blue hover:text-blue uppercase text-xs font-semibold rounded mr-4 px-3 py-1 pt-py"
+                        class="mb-2 inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-blue-600 hover:text-blue-800 uppercase text-xs font-semibold rounded mr-4 px-3 py-1 pt-py"
                     >{{ $category->title }}</a>
                 @endforeach
             @endif
         </div>
 
-        <hr class="border-b my-6">
+        <hr class="border-b my-8">
+        {{-- <hr class="border-b my-6"> --}}
     </div>
 
     @foreach ($pagination->items as $post)
@@ -45,7 +46,7 @@ pagination:
                 <a
                     href="{{ $previous }}"
                     title="Page précédente"
-                    class="bg-grey-lighter hover:bg-grey-light rounded mr-3 px-5 py-3"
+                    class="bg-gray-200 hover:bg-gray-400 rounded mr-3 px-5 py-3"
                 >&LeftArrow;</a>
             @endif
 
@@ -53,7 +54,7 @@ pagination:
                 <a
                     href="{{ $path }}"
                     title="Aller à la page {{ $pageNumber }}"
-                    class="bg-grey-lighter hover:bg-grey-light text-blue-darker rounded mr-3 px-5 py-3 {{ $pagination->currentPage == $pageNumber ? 'text-blue-dark' : '' }}"
+                    class="bg-gray-200 hover:bg-gray-400 text-blue-800 rounded mr-3 px-5 py-3 {{ $pagination->currentPage == $pageNumber ? 'text-blue-dark' : '' }}"
                 >{{ $pageNumber }}</a>
             @endforeach
 
@@ -61,7 +62,7 @@ pagination:
                 <a
                     href="{{ $next }}"
                     title="Page suivante"
-                    class="bg-grey-lighter hover:bg-grey-light rounded mr-3 px-5 py-3"
+                    class="bg-gray-200 hover:bg-gray-400 rounded mr-3 px-5 py-3"
                 >&RightArrow;</a>
             @endif
         </nav>

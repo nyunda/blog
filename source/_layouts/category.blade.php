@@ -10,7 +10,7 @@
 @section('body')
     <h1>{{ $page->title }}</h1>
 
-    <div class="text-2xl border-b border-blue-lighter mb-6 pb-10">
+    <div class="text-2xl border-b border-blue-200 mb-6 pb-10">
         @yield('content')
     </div>
 
@@ -22,5 +22,5 @@
         @endif
     @endforeach
 
-    @include('_components.newsletter-signup')
+    {{-- @include('_components.newsletter-signup') --}}
 @stop
