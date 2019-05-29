@@ -25,17 +25,13 @@ categories: [php, developpement]
 Les fonctions fléchées, que j'apprécie tant depuis que c'est apparu dans le JavaScript, permet de declarer des fonctions en une seule ligne.
 
 ```php
-
 array_map(function (User $user) {
     return $user->id;
 }, $users)
-
 ```
 
 ```php
-
 array_map(fn(User $user) => $user->id, $users)
-
 ```
 
 Tout comme dans le JavaScript, les fonctions fléchées ont quelques particularités:
@@ -51,14 +47,12 @@ Un article beaucoup plus détaillé concernant les fonctions fléchées est en p
 Les variables de classes pourront être typées :
 
 ```php
-
 class A
 {
     public string $nom;
 
     public Foo $bar;
 }
-
 ```
 
 ## Opérateur d'association en cas de valeur nulle [RFC](https://wiki.php.net/rfc/null_coalesce_equal_operator) {#operateur-d-assiociation}
@@ -66,17 +60,13 @@ class A
 Au lieu de faire ceci :
 
 ```php
-
 $data['date'] = $data['date'] ?? new DateTime();
-
 ```
 
 Il est possible de faire comme ceci :
 
 ```php
-
 $data['date'] ??= new DateTime();
-
 ```
 
 ## Opérateur de décomposition de tableau ou Array Spread Operator en Anglais [RFC](https://wiki.php.net/rfc/spread_operator_for_array) {#operateur-de-decomposition}
@@ -84,14 +74,12 @@ $data['date'] ??= new DateTime();
 Ce serait possible d'utiliser l'opérateur de décomposition de tableau en PHP :
 
 ```php
-
 $tableau1= [1, 2, 3];
 
 $tableau2 = [4, 5];
 
 $resultat = [0, ...$tableau1, ...$tableau2, 6 ,7];
 // [0, 1, 2, 3, 4, 5, 6, 7]
-
 ```
 
 Il est à noter que ça ne marche que pour les tableaux aux clés numérique.
@@ -113,25 +101,19 @@ Le gain en performance apporte avec lui un coût, pas le moindre: s'il y a des m
 En codant quelque chose de semblable à ceci:
 
 ```php
-
 echo "sum: " . $a + $b;
-
 ```
 
 PHP interprété précédemment comme suit:
 
 ```php
-
 echo ("sum: " . $a) + $b;
-
 ```
 
 PHP 8 interprétera comme suit:
 
 ```php
-
 echo "sum :" . ($a + $b);
-
 ```
 
 PHP 7.4 avertira lorsqu'il rencontrera un expression non mise en parenthèse et contenant un '.' avant un '+' ou un '-'.
