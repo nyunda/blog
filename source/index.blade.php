@@ -4,7 +4,9 @@
     @foreach ($posts->where('featured', true) as $featuredPost)
         <div class="w-full mb-6">
             @if ($featuredPost->cover_image)
-                <img src="{{ $featuredPost->cover_image }}" alt="{{ $featuredPost->title }} image à la une" class="mb-6">
+                <a href="{{ $featuredPost->getUrl() }}" title="Read {{ $featuredPost->title }}">
+                    <img src="{{ $featuredPost->cover_image }}" alt="{{ $featuredPost->title }} image à la une" class="mb-6">
+                </a>
             @endif
 
             <p class="text-grey-darker font-medium my-2">
@@ -30,6 +32,8 @@
     @endforeach
 
     {{-- @include('_components.newsletter-signup') --}}
+
+    <hr class="border-b my-6 mb-10">
 
     @foreach ($posts->where('featured', false)->take(6)->chunk(2) as $row)
         <div class="flex flex-col md:flex-row md:-mx-6">
