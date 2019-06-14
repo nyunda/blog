@@ -1,2 +1,0 @@
-<?php $__env->startSection('content'); ?><p>Ces articles concernent le langage de programmation JavaScript.</p><?php $__env->stopSection(); ?>
-<?php echo $__env->make('_layouts.category', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
