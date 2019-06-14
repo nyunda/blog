@@ -8,6 +8,7 @@
 @endpush
 
 @section('body')
+<div class="md:w-2/3 mx-auto">
     @if ($page->cover_image)
         <img src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2">
     @endif
@@ -26,7 +27,7 @@
         @endforeach
     @endif
 
-    <div class="border-b border-blue-200 mt-8 mb-10 pb-4" v-pre>
+    <div class="w-full border-b border-blue-200 mt-8 mb-10 pb-4" v-pre>
         @yield('content')
     </div>
 
@@ -47,4 +48,5 @@
             @endif
         </div>
     </nav>
+</div>
 @endsection
