@@ -1,10 +1,10 @@
 @extends('_layouts.master')
 
 @push('meta')
-    <meta property="og:title" content="{{ $page->title }}" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="{{ $page->getUrl() }}"/>
     <meta property="og:description" content="{{ $page->description }}" />
+    @if ($page->cover_image)
+        <meta property="og:image" content="{{ $page->cover_image }}" />
+    @endif
 @endpush
 
 @section('body')

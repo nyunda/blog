@@ -1,9 +1,10 @@
 ---
 extends: _layouts.post
 section: content
+type: article
 title: Pourquoi chercher la perfection peut retarder ton évolution si tu veux devenir un développeur web
 date: 2019-06-14
-description: Tu es développeur, tu apprends à l'être... Je pense que cet article va t'aider à avoir le bon point de vu sur ce que tu réalise déjà pour avancer et devenir un bon développeur, un excellent développeur
+description: Comment le perfectionnisme empêche d'évoluer ? Comment y rémedier ? Voici la réponse.
 cover_image:
 featured: true
 categories: [autres]

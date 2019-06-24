@@ -1,6 +1,7 @@
 ---
 extends: _layouts.post
 section: content
+type: article
 title: Nouveauté dans PHP 7.4
 date: 2019-05-27
 description: Principales nouveautés attendues dans le PHP 7.4, tout ce qu'il y a à savoir à ce sujet, sinon presque.

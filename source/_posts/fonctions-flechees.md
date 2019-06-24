@@ -1,11 +1,12 @@
 ---
 extends: _layouts.post
 section: content
-title: Fonctions courtes ou fonctions fléchées en PHP 7.4
+type: article
+title: Fonctions fléchées en PHP 7.4
 date: 2019-05-29
-description: En savoir plus au sujet des fonctions fléchées ou fonctions courtes, fonctionnalité à venir.
-cover_image:
-featured: false
+description: En savoir plus au sujet des fonctions fléchées ou fonctions courtes, fonctionnalité à venir
+cover_image: /assets/img/fonctions_flechees_php_74.jpg
+featured: true
 categories: [php, developpement]
 ---
 
