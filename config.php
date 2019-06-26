@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'https//nyunda.dev',
     'production' => false,
     'siteName' => 'NYUNDA.DEV',
-    'siteDescription' => 'Apprendre, Découvrir ou/et faire découvrir concernant le dev, tout dépend de toi...',
+    'siteDescription' => 'Apprendre et découvrir le monde du developpement et du numérique en général autant que l\'on peut',
     'siteAuthor' => 'Daniel Rubango',
 
     // collections
@@ -12,6 +12,9 @@ return [
         'posts' => [
             'author' => 'Daniel Rubango', // Default author, if not provided in a post
             'sort' => '-date',
+            'readTime' => function($page) {
+                return intval(round(str_word_count(strip_tags($page->getContent())) / 200));
+            },
             'path' => 'blog/{filename}',
         ],
         'categories' => [
