@@ -5,7 +5,8 @@ type: article
 title: Se faciliter la vie avec le nouveau terminal de Windows
 date: 2019-06-26
 description: Installer le nouveau terminal de Microsoft - le Windows Terminal, tout beau et le tester sans plus attendre
-cover_image: /assets/img/nouveau-terminal-windows-1.jpg
+cover_image: /assets/img/windows-terminal-1.png
+social_image: /assets/img/windows-terminal-article.jpg
 featured: true
 categories: [windows, autres]
 ---
@@ -44,12 +45,8 @@ Cette application intègre notamment un système d’onglets - une fonctionnalit
 
 [![Arrière plan dans le nouveau terminal](/assets/img/new-microsoft-terminal-summer-background.png)](/assets/img/new-microsoft-terminal-summer-background.png)
 
-[![Arrière plan dans le nouveau terminal](/assets/img/nouveau-terminal-windows-2.jpg)](/assets/img/nouveau-terminal-windows-2.jpg)
-
-[![Arrière plan dans le nouveau terminal](/assets/img/nouveau-terminal-windows-3.jpg)](/assets/img/nouveau-terminal-windows-3.jpg)
-
-[![Arrière plan dans le nouveau terminal](/assets/img/nouveau-terminal-windows-4.jpg)](/assets/img/nouveau-terminal-windows-4.jpg)
-
 Bien que la version stable soit à venir, pour une date encore inconnue, c'est bien possible de se régaler et profiter de ce tout nouveau terminal. Vous pouvez même contribuer à son amélioration en vous joignant à la communauté sur [GitHub](https://github.com/Microsoft/Terminal).
+
+[![Arrière plan dans le nouveau terminal](/assets/img/windows-terminal-2.png)](/assets/img/windows-terminal-2.png)
 
 Cet article vous a-t-il été utile ? Voulez-vous que j'écrive un autre concenant un sujet qui vous préoccupe particulièrement ? Alors, écrivez-moi un message sur ma page de [contact](/contact).

@@ -2,9 +2,7 @@
 
 @push('meta')
     <meta property="og:description" content="{{ $page->description }}" />
-    @if ($page->cover_image)
-        <meta property="og:image" content="{{ $page->cover_image }}" />
-    @endif
+    <meta property="og:image" content="{{ $page->social_image ?? $page->cover_image }}" />
 @endpush
 
 @section('body')

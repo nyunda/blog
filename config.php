@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => 'https//nyunda.dev',
+    'baseUrl' => '',
     'production' => false,
     'siteName' => 'NYUNDA.DEV',
     'siteDescription' => 'Apprendre et découvrir le monde du developpement et du numérique en général autant que l\'on peut',
