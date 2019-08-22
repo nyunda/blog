@@ -11,7 +11,7 @@ featured: true
 categories: [blogging, autres, laravel, developpement]
 ---
 
-Créer un blog afin de partager toutes mes découvertes, tout ce qui me traverserait l'esprit a toujours été un rêve pour moi. Un rêve qui a fini par devenir réalité grâce à un petit outil, mais très intéressant: [Jigsaw]([https://jigsaw.tighten.co/](https://jigsaw.tighten.co/)) – Un générateur des sites web statiques.
+Créer un blog afin de partager toutes mes découvertes, tout ce qui me traverserait l'esprit a toujours été un rêve pour moi. Un rêve qui a fini par devenir réalité grâce à un petit outil, mais très intéressant: [Jigsaw by tighten](https://jigsaw.tighten.co/) – Un générateur des sites web statiques.
 
 Pourquoi avoir utilisé un générateur des sites statiques pour la création d’un blog, à la place d’un CMS tout en un, tel que le populaire WordPress ? Commençons par expliquer la raison de mon choix, ensuite je donnerai bien plus de détails sur les particularités d’un générateur des sites statiques.
 
@@ -27,7 +27,7 @@ Bien qu’étant simples et complets, les CMS offraient bien des choses dont je 
 
 ### Ah oui ! Jigsaw – un outil pour développeurs
 
-*Jigsaw* n’est pas si facile à mettre en main pour monsieur tout le monde (un nom développeur). Petite rappel, ce n’est donc pas fait pour tout le monde. Pour moi, ce n’était qu’une étape à franchir. Il n’y a pas des thèmes disponibles au tout début pour la création d’un blog en moins de temps. Puis vint un kit de démarrage pour la création d’un blog avec *Jigsaw*. Pas besoin d’attendre, je me suis vite mis à tenir en main et à l’utiliser.
+*Jigsaw* n’est pas si facile à mettre en main pour monsieur tout le monde (un nom développeur). Petit rappel, ce n’est donc pas fait pour tout le monde. Pour moi, ce n’était qu’une étape à franchir. Il n’y a pas des thèmes disponibles au tout début pour la création d’un blog en moins de temps. Puis vint un kit de démarrage pour la création d’un blog avec *Jigsaw*. Pas besoin d’attendre, je me suis vite mis à tenir en main et à l’utiliser.
 
 En tant que grand fan de Laravel – Un framework PHP, je me régalais. Tout m’était familier, surtout la gestionnaire de template de laravel, Blade et la ligne de commande. Je pense que c’est les seuls requis. Et puisque je venais de découvrir un nouvel utilitaire CSS, [TailwindCSS]([https://tailwindcss.com/](https://tailwindcss.com/)), dont je parlerai dans un prochain article, je me suis mis à l’utiliser à fond pour la création de mon blog.
 
