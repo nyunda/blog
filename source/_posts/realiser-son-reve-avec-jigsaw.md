@@ -11,8 +11,6 @@ featured: true
 categories: [blogging, autres, laravel, developpement]
 ---
 
-# Comment Jigsaw m’a permis de réaliser un rêve d’enfant
-
 Créer un blog afin de partager toutes mes découvertes, tout ce qui me traverserait l'esprit a toujours été un rêve pour moi. Un rêve qui a fini par devenir réalité grâce à un petit outil, mais très intéressant: [Jigsaw]([https://jigsaw.tighten.co/](https://jigsaw.tighten.co/)) – Un générateur des sites web statiques.
 
 Pourquoi avoir utilisé un générateur des sites statiques pour la création d’un blog, à la place d’un CMS tout en un, tel que le populaire WordPress ? Commençons par expliquer la raison de mon choix, ensuite je donnerai bien plus de détails sur les particularités d’un générateur des sites statiques.
