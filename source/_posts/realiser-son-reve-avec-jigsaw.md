@@ -27,7 +27,11 @@ Bien qu’étant simples et complets, les CMS offraient bien des choses dont je 
 
 ### Ah oui ! Jigsaw – un outil pour développeurs
 
+<<<<<<< HEAD
 **Jigsaw** n’est pas si facile à mettre en main pour monsieur tout le monde (un nom développeur). Petit rappel, ce n’est donc pas fait pour tout le monde. Pour moi, ce n’était qu’une étape à franchir. Il n’y a pas des thèmes disponibles au tout début pour la création d’un blog en moins de temps. Puis vint un kit de démarrage pour la création d’un blog avec **Jigsaw**. Pas besoin d’attendre, je me suis vite mis à tenir en main et à l’utiliser.
+=======
+*Jigsaw* n’est pas si facile à mettre en main pour monsieur tout le monde (un nom développeur). Petit rappel, ce n’est donc pas fait pour tout le monde. Pour moi, ce n’était qu’une étape à franchir. Il n’y a pas des thèmes disponibles au tout début pour la création d’un blog en moins de temps. Puis vint un kit de démarrage pour la création d’un blog avec *Jigsaw*. Pas besoin d’attendre, je me suis vite mis à tenir en main et à l’utiliser.
+>>>>>>> 4c8f0d58cc88747fd33f4fa63b844408d8d33392
 
 En tant que grand fan de Laravel – Un framework PHP, je me régalais. Tout m’était familier, surtout la gestionnaire de template de laravel, Blade et la ligne de commande. Je pense que c’est les seuls requis. Et puisque je venais de découvrir un nouvel utilitaire CSS, [TailwindCSS]([https://tailwindcss.com/](https://tailwindcss.com/)), dont je parlerai dans un prochain article, je me suis mis à l’utiliser à fond pour la création de mon blog.
 
