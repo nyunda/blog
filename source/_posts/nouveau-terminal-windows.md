@@ -7,7 +7,7 @@ date: 2019-06-26
 description: Installer le nouveau terminal de Microsoft - le Windows Terminal, tout beau et le tester sans plus attendre
 cover_image: /assets/img/windows-terminal-1.png
 social_image: /assets/img/windows-terminal-article.jpg
-featured: true
+featured: false
 categories: [windows, autres]
 ---
 
