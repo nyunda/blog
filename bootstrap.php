@@ -14,9 +14,9 @@
  * });
  */
 
-// $events->beforeBuild(function () {
-// 	setlocale(LC_TIME, "fr_FR","French");
-// });
+$events->beforeBuild(function () {
+	setlocale(LC_TIME, "fr_FR","French");
+});
 
 $events->afterBuild(App\Listeners\GenerateSitemap::class);
 $events->afterBuild(App\Listeners\GenerateIndex::class);

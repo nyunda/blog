@@ -1,7 +1,7 @@
 ---
 pagination:
     collection: posts
-    perPage: 4
+    perPage: 5
 ---
 @extends('_layouts.master')
 
@@ -9,7 +9,7 @@ pagination:
     <meta property="og:title" content="{{ $page->siteName }} Blog" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ $page->getUrl() }}"/>
-    <meta property="og:description" content="The list of blog posts for {{ $page->siteName }}" />
+    <meta property="og:description" content="Les derniers articles du Blog {{ $page->siteName }}" />
 @endpush
 
 @section('body')
@@ -29,7 +29,6 @@ pagination:
         </div>
 
         <hr class="border-b my-8">
-        {{-- <hr class="border-b my-6"> --}}
     </div>
 
     @foreach ($pagination->items as $post)

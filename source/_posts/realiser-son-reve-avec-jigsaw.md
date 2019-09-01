@@ -23,11 +23,11 @@ Les CMS sont très intéressants, très bon et facile d’emploi. J’ai eu à l
 
 Avec un WordPress par exemple, vous avez tout à votre disposition, que ce soit la gestion d’utilisateurs, gestion du SEO, des commentaires, des thèmes, etc. Beaucoup des plugins sont mis à votre dispositions, qu’ils soient payants ou gratis. Dans mon cas, je n’avais pas besoin de tout cela. Je voulais seulement avoir un blog, aussi simple que possible, mais aussi fonctionnel.
 
-Bien qu’étant simples et complets, les CMS offraient bien des choses dont je n’avais pas besoin, notamment l’utilisation d’une base des données. J’avais besoin dynamiquement statique… Je sais, cela ne veut sérieusement rien dire, mais bon…fallait trouver quelque chose. Créer un blog à la main sous forme de site statique est fastidieux. Je me suis alors mis à la recherche des outils pour la génération des sites statiques, et suis tombé sur *Jigsaw*.
+Bien qu’étant simples et complets, les CMS offraient bien des choses dont je n’avais pas besoin, notamment l’utilisation d’une base des données. J’avais besoin dynamiquement statique… Je sais, cela ne veut sérieusement rien dire, mais bon…fallait trouver quelque chose. Créer un blog à la main sous forme de site statique est fastidieux. Je me suis alors mis à la recherche des outils pour la génération des sites statiques, et suis tombé sur **Jigsaw**.
 
 ### Ah oui ! Jigsaw – un outil pour développeurs
 
-*Jigsaw* n’est pas si facile à mettre en main pour monsieur tout le monde (un nom développeur). Petit rappel, ce n’est donc pas fait pour tout le monde. Pour moi, ce n’était qu’une étape à franchir. Il n’y a pas des thèmes disponibles au tout début pour la création d’un blog en moins de temps. Puis vint un kit de démarrage pour la création d’un blog avec *Jigsaw*. Pas besoin d’attendre, je me suis vite mis à tenir en main et à l’utiliser.
+**Jigsaw** n’est pas si facile à mettre en main pour monsieur tout le monde (un nom développeur). Petit rappel, ce n’est donc pas fait pour tout le monde. Pour moi, ce n’était qu’une étape à franchir. Il n’y a pas des thèmes disponibles au tout début pour la création d’un blog en moins de temps. Puis vint un kit de démarrage pour la création d’un blog avec **Jigsaw**. Pas besoin d’attendre, je me suis vite mis à tenir en main et à l’utiliser.
 
 En tant que grand fan de Laravel – Un framework PHP, je me régalais. Tout m’était familier, surtout la gestionnaire de template de laravel, Blade et la ligne de commande. Je pense que c’est les seuls requis. Et puisque je venais de découvrir un nouvel utilitaire CSS, [TailwindCSS]([https://tailwindcss.com/](https://tailwindcss.com/)), dont je parlerai dans un prochain article, je me suis mis à l’utiliser à fond pour la création de mon blog.
 

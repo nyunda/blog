@@ -19,7 +19,7 @@ Microsoft l'a présenté lors de sa dernière conférence et comme promis, le vo
 	</div>
 </div>
 
-[](https://images.frandroid.com/wp-content/uploads/2019/05/microsoft-windows-terminal-linux.jpg)
+[![Terminal Windows](https://images.frandroid.com/wp-content/uploads/2019/05/microsoft-windows-terminal-linux.jpg)](https://images.frandroid.com/wp-content/uploads/2019/05/microsoft-windows-terminal-linux.jpg)
 
 Depuis maintenant quelques années, Microsoft s'est grandement mis à travailler sur l'utilisation native de linux sur Windows. En mai dernier, il a dévoilé publiquement ses plans, avec comme objectif : améliorer la vie des développeurs qui utilisent Windows 10. Microsoft a parlé de bien des choses, notamment du tout nouveau terminal sobrement nommé Windows Terminal.
 
