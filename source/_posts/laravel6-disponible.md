@@ -6,7 +6,7 @@ title: Laravel 6.0 est finalement là
 date: 2019-09-05
 description: Présentation des nouveautés qu'apporte le nouvelle version majeur de Laravel, la version 6. Dans cet article, je vous présente les principales fonctionnalités.
 cover_image: /assets/img/laravel6-0.png
-social_image: /assets/img/laravel6-0.png
+social_image: /assets/img/laravel6-0s.png
 featured: true
 categories: [laravel, developpement]
 ---
