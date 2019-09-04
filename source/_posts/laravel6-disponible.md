@@ -11,7 +11,7 @@ featured: true
 categories: [laravel, developpement]
 ---
 
-Depuis hier, 3 septembre 2019, l’équipe en charge du développement de Laravel a annoncé avec joie la sortie publique de la 6e version majeure du framework Laravel. Laravel a toujours utilisé la version majeure pour le changement de noyau, mais pour cette 6e version, c’est surtout le passage vers le [Versionning Semantique (semver)](https://semver.org/lang/fr/) qui fait que la version monte.
+Depuis le 3 septembre 2019, l’équipe en charge du développement de Laravel a annoncé avec joie la sortie publique de la 6e version majeure du framework Laravel. Laravel a toujours utilisé la version majeure pour le changement de noyau, mais pour cette 6e version, c’est surtout le passage vers le [Versionning Semantique (semver)](https://semver.org/lang/fr/) qui fait que la version monte.
 
 Cette version marque donc le début de l'utilisation du versionning sémantique, mais aussi la compatibilité avec [Laravel Vapor](https://vapor.laravel.com/), qui fut annoncé lors de la dernière Laracon, une plateforme de déploiement sans serveur pour Laravel, supportant les montées de charge en offrant une mise en échelle automatique à la demande sans aucune maintenance ou gestion manuelle du serveur, et alimentée par les Services Web d’Amazon.
 
