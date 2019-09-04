@@ -13,7 +13,7 @@ categories: [autres, developpement]
 
 Il fut un temps où on galérait à partager des bouts de code sur internet. Il fallait soit accepter de partager un code non coloré, pas présentable, bref : bizarre! Soit passer son temps à le colorer manuellement ou à faire des captures d’écran. Et ce n’était toujours pas facile pour un résultat souvent décevant.
 
-Jusqu’à la découverte d’une astuce simple : la possibilité d’utiliser Visual Studio Code ([VS Code](https://code.visualstudio.com/)) comme source pour des codes sources à partager. Il suffit de copier un code depuis l’éditeur VS Code et le copier dans un autre éditeur de texte riche (tel que Word et similaire) et vous vous verrez la magie s’opérer.
+Jusqu’à la découverte d’une astuce simple : la possibilité d’utiliser Visual Studio Code ([VS Code](https://code.visualstudio.com/)) comme source pour des codes sources à partager. Il suffit de copier un code depuis l’éditeur VS Code et le copier dans un autre éditeur de texte riche (tel que Word ou similaire) et voir la magie s’opérer.
 
 [![Copie d'un code source via Visual Studio Code](/assets/img/vscode-word-1.png)](/assets/img/vscode-word-1.png)
 
