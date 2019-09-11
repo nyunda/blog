@@ -24,5 +24,7 @@
     <p class="mb-6">J’adore partager mes connaissances, mes découvertes et ma petite expérience, cherchant à inspirer, encourager autant que je peux la communauté de dev, d’où la création de ce blog qui me permettra de partager ce que je découvre.</p>
 
     <p class="mb-6">En dehors de mon travail et du code, je suis prédicateur à plein temps chez les témoins de Jéhovah et j’aime aider mon prochain à découvrir des vérités pouvant lui donner accès à une paix véritable, ce que je fais en partageant la bonne parole.</p>
+
+    
 </div>
 @endsection

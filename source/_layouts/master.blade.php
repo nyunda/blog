@@ -18,6 +18,8 @@
 
         @stack('meta')
 
+        @stack('googleads')
+
         @if ($page->production)
             <!-- Global site tag (gtag.js) - Google Analytics -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140337690-1"></script>
@@ -29,16 +31,7 @@
                 gtag('config', 'UA-140337690-1');
             </script>
 
-            {{-- @stack('googleads') --}}
-
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({
-                    google_ad_client: "ca-pub-9554638137229612",
-                    enable_page_level_ads: true
-                });
-            </script>
+            @stack('googleads')
         @endif
 
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
