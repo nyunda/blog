@@ -19,16 +19,6 @@ Un tout nouveau logo, un nouveau site... un rebranding.
 
 [![Nouveau site laravel.com](/assets/img/laravel6-1.png)](/assets/img/laravel6-1.png)
 
-<ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-9554638137229612"
-    data-ad-slot="9573950571"
-    data-ad-format="auto"
-    data-full-width-responsive="true"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## Laravel 6.0 est la nouvelle version à support à long terme (ou LTS en anglais)
 
 Cette sortie marque le changement de version à support long dans le temps pour le framework, avec le correctif de bugs jusqu’au 3 septembre 2021 et correctifs de sécurité jusqu’au 3 septembre 2022. Le tableau suivant présente les versions et les périodes pendant lesquelles elles seront supportées :
