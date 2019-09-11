@@ -1,9 +1,13 @@
 ---
 pagination:
     collection: posts
-    perPage: 4
+    perPage: 6
 ---
 @extends('_layouts.master')
+
+@push('googleads')
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+@endpush
 
 @push('meta')
     <meta property="og:title" content="{{ $page->siteName }} Blog" />
@@ -27,6 +31,18 @@ pagination:
                 @endforeach
             @endif
         </div>
+
+        <hr class="border-b my-8">
+
+        <ins class="adsbygoogle mt-6 bt-1 bg-red"
+            style="display:block"
+            data-ad-client="ca-pub-9554638137229612"
+            data-ad-slot="9573950571"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
 
         <hr class="border-b my-8">
     </div>

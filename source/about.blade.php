@@ -1,5 +1,9 @@
 @extends('_layouts.master')
 
+@push('googleads')
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+@endpush
+
 @push('meta')
     <meta property="og:title" content="About {{ $page->siteName }}" />
     <meta property="og:type" content="website" />
@@ -25,6 +29,14 @@
 
     <p class="mb-6">En dehors de mon travail et du code, je suis prédicateur à plein temps chez les témoins de Jéhovah et j’aime aider mon prochain à découvrir des vérités pouvant lui donner accès à une paix véritable, ce que je fais en partageant la bonne parole.</p>
 
-    
+    <ins class="adsbygoogle mt-6 bt-1 bg-red"
+        style="display:block"
+        data-ad-client="ca-pub-9554638137229612"
+        data-ad-slot="9573950571"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 </div>
 @endsection

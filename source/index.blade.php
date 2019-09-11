@@ -2,19 +2,16 @@
 
 @push('googleads')
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9554638137229612",
+            enable_page_level_ads: true
+        });
+    </script>
 @endpush
 
 @section('body')
-    <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-9554638137229612"
-        data-ad-slot="9573950571"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-
     @foreach ($posts->where('featured', true) as $featuredPost)
         <div class="w-full mb-6">
             @if ($featuredPost->cover_image)
@@ -44,6 +41,18 @@
             <hr class="border-b my-6">
         @endif
     @endforeach
+
+    <hr class="border-b my-6 mb-10">
+
+    <ins class="adsbygoogle mb-6"
+        style="display:block"
+        data-ad-client="ca-pub-9554638137229612"
+        data-ad-slot="9573950571"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 
     {{-- @include('_components.newsletter-signup') --}}
 
