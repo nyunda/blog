@@ -5,6 +5,10 @@
     <meta property="og:image" content="{{ $page->social_image ?? $page->cover_image }}" />
 @endpush
 
+@push('googleads')
+    {{-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> --}}
+@endpush
+
 @section('body')
 <div class="md:w-2/3 mx-auto">
     @if ($page->cover_image)
@@ -12,6 +16,17 @@
     @endif
 
     <h1 class="leading-none mb-2">{{ $page->title }}</h1>
+
+
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-9554638137229612"
+        data-ad-slot="9573950571"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 
     <p class="text-gray-600 text-xl md:mt-0">{{ $page->author }}  •  {{ date('F j, Y', $page->date) }}</p>
 

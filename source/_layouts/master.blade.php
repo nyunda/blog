@@ -28,6 +28,8 @@
                 gtag('config', 'UA-140337690-1');
             </script>
 
+            {{-- @stack('googleads') --}}
+
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
             <script>
