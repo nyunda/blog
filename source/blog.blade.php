@@ -34,7 +34,7 @@ pagination:
 
         <hr class="border-b my-8">
 
-        <ins class="adsbygoogle mt-6 bt-1 bg-red"
+        <ins class="adsbygoogle mt-6"
             style="display:block"
             data-ad-client="ca-pub-9554638137229612"
             data-ad-slot="9573950571"
