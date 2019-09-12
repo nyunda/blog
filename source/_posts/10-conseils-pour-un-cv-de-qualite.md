@@ -40,6 +40,12 @@ Ton Curriculum Vitae doit se différencier des autres, aussi bien par son design
 
 Posséder un CV original te permettra de retenir l’attention du recruteur et de mettre en valeur son contenu. Tout bon CV doit être unique et représentatif de la personnalité de son propriétaire. Puisqu’un recruteur cherche à faire le bon choix parmi les CV, le mieux c’est de l’aider à y arriver en visant l’efficacité et la simplicité. Vous n’avez pas droit aux fautes d’orthographes. Mais aussi, veillez à respecter les règles typographiques.
 
+Il est bon de savoir que si vous respectez les règles typographiques, vous faciliterez la compréhension et l’assimilation des messages contenus dans vos documents. En mettant votre CV en forme de manière respectueuse de ces règles, l'attention du recruteur restera centrée sur le contenu, sans avoir à faire d’effort pour le lire.
+
+> Voici une fiche listant des [Règles typographiques](https://mrm.edu.umontpellier.fr/files/2016/02/SI-fiche-typographie.pdf) de base (par Véronique Pierre).
+
+Ajouter des liens vers son blog personnel, vers une vidéo ou vers son portfolio, peuvent également être un moyen de se différencier des autres candidats. N’hésite donc pas à utiliser ton CV pour ajouter ces éléments qui peuvent faire la différence.
+
 <div>
 	<ins class="adsbygoogle"
 	    style="display:block"
@@ -51,12 +57,6 @@ Posséder un CV original te permettra de retenir l’attention du recruteur et d
 	    (adsbygoogle = window.adsbygoogle || []).push({});
 	</script>
 </div>
-
-Il est bon de savoir que si vous respectez les règles typographiques, vous faciliterez la compréhension et l’assimilation des messages contenus dans vos documents. En mettant votre CV en forme de manière respectueuse de ces règles, l'attention du recruteur restera centrée sur le contenu, sans avoir à faire d’effort pour le lire.
-
-> Voici une fiche listant des [Règles typographiques](https://mrm.edu.umontpellier.fr/files/2016/02/SI-fiche-typographie.pdf) de base (par Véronique Pierre).
-
-Ajouter des liens vers son blog personnel, vers une vidéo ou vers son portfolio, peuvent également être un moyen de se différencier des autres candidats. N’hésite donc pas à utiliser ton CV pour ajouter ces éléments qui peuvent faire la différence.
 
 ## 3. Lister correctement ses expériences professionnelles
 
@@ -65,18 +65,6 @@ Nom et taille de l’entreprise, le secteur d’activité, date de début et dat
 ## 4. Préciser pour chaque poste occupé, les missions et tâches réalisés
 
 Le recruteur pourra ainsi se faire une meilleure idée sur l’ensemble des compétences et connaissances que tu aies pu mettre en pratique au cours de tes dernières expériences professionnelles. Décris les principales tâches réalisées, ainsi que les résultats obtenus. Sois précis et concis, garde les détails pour l’entretien.
-
-<div>
-	<ins class="adsbygoogle"
-	    style="display:block"
-	    data-ad-client="ca-pub-9554638137229612"
-	    data-ad-slot="9573950571"
-	    data-ad-format="auto"
-	    data-full-width-responsive="true"></ins>
-	<script>
-	    (adsbygoogle = window.adsbygoogle || []).push({});
-	</script>
-</div>
 
 ## 5. Rester honnête
 

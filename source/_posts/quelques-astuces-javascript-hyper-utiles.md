@@ -22,6 +22,18 @@ let valeursUniques = [...new Set([1, 2, 3, 3])]
 ```
 Mais quelle facilité déconcertante 😎 ! Tout cela grâce à l'objet `Set` (ensemble en français) permettant de stocker des valeurs uniques de n'importe quel type, que ce soit des valeurs d'un type primitif ou des objets.
 
+<div>
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-9554638137229612"
+      data-ad-slot="9573950571"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+
 ## Tableau et Boolean
 
 Besoin de filtrer un tableau pour ne garder que des valeurs non `null` ou similaire (`0`,  `undefined`,  `null`,  `false`, etc.) ?
@@ -68,6 +80,18 @@ Object {
 */
 ```
 Les trois points nous facilitent grandement la tâche.
+
+<div>
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-9554638137229612"
+      data-ad-slot="9573950571"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
 
 ## Exiger un paramètre à une fonction
 

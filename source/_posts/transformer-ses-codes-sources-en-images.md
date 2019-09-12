@@ -5,7 +5,7 @@ type: article
 title: Transformer ses codes sources en images
 date: 2019-09-01
 description: Présentation d'un outil permettant de transformer n'importe quel code source en images que l'on peut partager sur internet facilement
-cover_image: 
+cover_image:
 social_image: /assets/img/kodeshot-2.png
 featured: true
 categories: [autres, developpement]
@@ -20,6 +20,18 @@ Jusqu’à la découverte d’une astuce simple : la possibilité d’utiliser V
 Le problème avec VS Code, ce qu’il n’est pas conçu pour la génération des images toutes faites que l’on peut partages sur internet. Surtout à cause des procédures longues pour des simples paramétrages : changer la police, le thème, supprimer les numéros de ligne, etc. C’est ainsi que je vous présente cette application sur laquelle je suis tombée : [KODESHOT](https://www.kodeshot.net/).
 
 [KODESHOT](https://www.kodeshot.net/) est une application très intéressante permettant de transformer tout code source en une belle image, que l’on peut directement partager ou publier dans un article, dans un tweet, dans un post Facebook, dans des messages ou sur des profils WhatsApp, etc.
+
+<div>
+	<ins class="adsbygoogle"
+	    style="display:block"
+	    data-ad-client="ca-pub-9554638137229612"
+	    data-ad-slot="9573950571"
+	    data-ad-format="auto"
+	    data-full-width-responsive="true"></ins>
+	<script>
+	    (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
 
 Il est à noter que c’est une application web qui est très facile à prendre en main. Vous avez la possibilité de changer la largeur des images à exporter, la taille de police du code source, le thème visuel du code source, et même le langage de programmation du code source pour la coloration syntaxique.
 

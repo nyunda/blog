@@ -35,6 +35,18 @@ Il faut noter que c'est encore une version d'évaluation et que l'application n'
 
 [Télécharger Windows Terminal](https://www.microsoft.com/fr-fr/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab)
 
+<div>
+	<ins class="adsbygoogle"
+	    style="display:block"
+	    data-ad-client="ca-pub-9554638137229612"
+	    data-ad-slot="9573950571"
+	    data-ad-format="auto"
+	    data-full-width-responsive="true"></ins>
+	<script>
+	    (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
+
 ## Les nouveautés Windows Terminal
 
 Windows Terminal n'est rien d'autre qu'un terminal, une application qui va vous permettre d’accéder au langage interpréteur de commande : bash, cmd, powershell, etc.

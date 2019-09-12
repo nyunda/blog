@@ -25,6 +25,18 @@ Avec un WordPress par exemple, vous avez tout à votre disposition, que ce soit 
 
 Bien qu’étant simples et complets, les CMS offraient bien des choses dont je n’avais pas besoin, notamment l’utilisation d’une base des données. J’avais besoin dynamiquement statique… Je sais, cela ne veut sérieusement rien dire, mais bon…fallait trouver quelque chose. Créer un blog à la main sous forme de site statique est fastidieux. Je me suis alors mis à la recherche des outils pour la génération des sites statiques, et suis tombé sur **Jigsaw**.
 
+<div>
+	<ins class="adsbygoogle"
+	    style="display:block"
+	    data-ad-client="ca-pub-9554638137229612"
+	    data-ad-slot="9573950571"
+	    data-ad-format="auto"
+	    data-full-width-responsive="true"></ins>
+	<script>
+	    (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
+
 ### Ah oui ! Jigsaw – un outil pour développeurs
 
 **Jigsaw** n’est pas si facile à mettre en main pour monsieur tout le monde (un nom développeur). Petit rappel, ce n’est donc pas fait pour tout le monde. Pour moi, ce n’était qu’une étape à franchir. Il n’y a pas des thèmes disponibles au tout début pour la création d’un blog en moins de temps. Puis vint un kit de démarrage pour la création d’un blog avec **Jigsaw**. Pas besoin d’attendre, je me suis vite mis à tenir en main et à l’utiliser.

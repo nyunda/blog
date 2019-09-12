@@ -56,6 +56,18 @@ class A
 }
 ```
 
+<div>
+	<ins class="adsbygoogle"
+	    style="display:block"
+	    data-ad-client="ca-pub-9554638137229612"
+	    data-ad-slot="9573950571"
+	    data-ad-format="auto"
+	    data-full-width-responsive="true"></ins>
+	<script>
+	    (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
+
 ## Opérateur d'association en cas de valeur nulle [RFC](https://wiki.php.net/rfc/null_coalesce_equal_operator) {#operateur-d-assiociation}
 
 Au lieu de faire ceci :
@@ -118,6 +130,18 @@ echo "sum :" . ($a + $b);
 ```
 
 PHP 7.4 avertira lorsqu'il rencontrera un expression non mise en parenthèse et contenant un '.' avant un '+' ou un '-'.
+
+<div>
+	<ins class="adsbygoogle"
+	    style="display:block"
+	    data-ad-client="ca-pub-9554638137229612"
+	    data-ad-slot="9573950571"
+	    data-ad-format="auto"
+	    data-full-width-responsive="true"></ins>
+	<script>
+	    (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
 
 ## Fonction `mb_str_split` ajoutée [RFC](https://wiki.php.net/rfc/mb_str_split)
 

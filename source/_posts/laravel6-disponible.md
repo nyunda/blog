@@ -51,6 +51,18 @@ if ($response->denied()) {
 
 Déjà heureux avec les collections du framework Laravel. Les Lazy Collections apportent une nouveauté toute particulière aux Collections des modèles de Laravel Eloquent. Une nouvelle classe `Illuminate\Support\LazyCollection` permet à PHP d'occuper moins d’espace mémoire lors du traitement de données de taille. La documentation officielle au sujet des [Lazy Collections](https://laravel.com/docs/6.0/collections#lazy-collections) présente cette nouvelle fonctionnalité avec beaucoup plus de détails.
 
+<div>
+	<ins class="adsbygoogle"
+	    style="display:block"
+	    data-ad-client="ca-pub-9554638137229612"
+	    data-ad-slot="9573950571"
+	    data-ad-format="auto"
+	    data-full-width-responsive="true"></ins>
+	<script>
+	    (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
+
 ## Des sous requêtes Eloquent renforcées
 
 Laravel 6.0 introduit un support beaucoup plus amélioré des sous-requêtes. Imaginons par exemple que l’on a une table pour les `Destinations` et une autre pour les vols menant à ces destinations. La table `Vols` contient la colonne `arrived_at` qui indique quand les vols arrivent à destination.

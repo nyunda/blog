@@ -43,6 +43,18 @@ L'exemple suivant montre une manière d'écrire une fonction strictement typé:
 $ids = array_map(fn(Post $article): int => $article->id, $articles);
 ```
 
+<div>
+	<ins class="adsbygoogle"
+	    style="display:block"
+	    data-ad-client="ca-pub-9554638137229612"
+	    data-ad-slot="9573950571"
+	    data-ad-format="auto"
+	    data-full-width-responsive="true"></ins>
+	<script>
+	    (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
+
 Notez ces deux informations:
 
 -   La déstructuration y est permise
@@ -83,6 +95,18 @@ Une exception est faite lorsque l'on utilise le mot clé  `$this`, lequel agit d
 ```php
 array_map(fn($x) => $x * $this->increment, $nombres);
 ```
+
+<div>
+	<ins class="adsbygoogle"
+	    style="display:block"
+	    data-ad-client="ca-pub-9554638137229612"
+	    data-ad-slot="9573950571"
+	    data-ad-format="auto"
+	    data-full-width-responsive="true"></ins>
+	<script>
+	    (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
 
 ## Possibilités à venir
 
