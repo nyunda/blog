@@ -36,16 +36,6 @@
         @endforeach
     @endif
 
-    <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-9554638137229612"
-        data-ad-slot="9573950571"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-
     <div class="w-full border-b border-blue-200 mt-8 mb-10 pb-4" v-pre>
         <ins class="adsbygoogle"
                 style="display:block; text-align:center;"

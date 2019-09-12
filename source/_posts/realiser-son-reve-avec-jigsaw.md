@@ -7,7 +7,7 @@ date: 2019-08-22
 description: Présentation plus que brève de Jigsaw, un générateur de sites statiques pour développeurs Laravel qui m'a permis de créer mon blog, un rêve d'enfant
 cover_image:
 social_image:
-featured: true
+featured: false
 categories: [blogging, autres, laravel, developpement]
 ---
 
