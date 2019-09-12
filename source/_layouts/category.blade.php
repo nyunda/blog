@@ -7,6 +7,17 @@
     <meta property="og:description" content="{{ $page->description }}" />
 @endpush
 
+@push('googleads')
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9554638137229612",
+            enable_page_level_ads: true
+        });
+    </script>
+@endpush
+
 @section('body')
     <h1>{{ $page->title }}</h1>
 

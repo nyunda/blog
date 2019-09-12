@@ -1,4 +1,4 @@
-<div class="flex flex-col mb-10 w-full md:mx-auto">
+<div class="flex flex-col -mb-4 w-full md:mx-auto">
 @if ($post->cover_image)
     <div class="flex flex-wrap md:flex-no-wrap mb-4">
         <div class="w-full md:w-1/3 md:mr-5">

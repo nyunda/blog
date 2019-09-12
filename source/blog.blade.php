@@ -17,7 +17,7 @@ pagination:
 @endpush
 
 @section('body')
-    <div class="mb-16">
+    <div class="mb-6">
         <h1 class="heading">Articles</h1>
 
         <div class="md:w-4/5 mb-2 mt-6">
