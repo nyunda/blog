@@ -5,9 +5,8 @@
 @endpush
 
 @section('body')
-    
 
-    <ins class="adsbygoogle mt-6"
+    <ins class="adsbygoogle -mt-6"
         style="display:block"
         data-ad-client="ca-pub-9554638137229612"
         data-ad-slot="9573950571"
@@ -46,9 +45,9 @@
         @endif
     @endforeach
 
-    <hr class="border-b my-6 mb-10">
+    <hr class="border-b my-6">
 
-    <ins class="adsbygoogle mb-6"
+    <ins class="adsbygoogle"
         style="display:block"
         data-ad-client="ca-pub-9554638137229612"
         data-ad-slot="9573950571"
@@ -60,7 +59,7 @@
 
     {{-- @include('_components.newsletter-signup') --}}
 
-    <hr class="border-b my-6 mb-10">
+    <hr class="border-b my-6">
 
     @foreach ($posts->where('featured', false)->take(6)->chunk(2) as $row)
         <div class="flex flex-col md:flex-row md:-mx-6">

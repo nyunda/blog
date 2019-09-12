@@ -1,4 +1,4 @@
-<div class="flex flex-col mb-10 w-full md:mx-auto">
+<div class="flex flex-col w-full md:mx-auto">
     <div class="flex mb-4">
         <div class="w-full">
             <div class="w-2/3">
