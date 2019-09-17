@@ -10,15 +10,15 @@ featured: false
 categories: [php, developpement]
 ---
 
--   Date de sortie pas encore confirmée, mais sans doutes aux allentours de Décembre 2019...
--   [Fonctions fléchées](#fonctions-flechees) pour des fonctions en une seule ligne
--   [Préchargement](#prechargement) pour une amélioration des performances
--   [Typage](#typage-de-proprietes) dans les classes
--   L'[Opérateur d'association en cas de valeur nulle](#operateur-d-assiociation) en version courte
--   [FFI](#ffi)  ouvre des nouvelles possibilités de création des extensions en PHP
--   [Dépréciation](#depreciation-balise-d-ouverture) de l'ouverture de balise PHP courte
--  Opérateur de décomposition [de tableaux](#operateur-de-decomposition)
--   Et bien plus encore
+- Date de sortie pas encore confirmée, mais sans doutes aux allentours de Décembre 2019...
+- [Fonctions fléchées](#fonctions-flechees) pour des fonctions en une seule ligne
+- [Préchargement](#prechargement) pour une amélioration des performances
+- [Typage](#typage-de-proprietes) dans les classes
+- L'[Opérateur d'association en cas de valeur nulle](#operateur-d-assiociation) en version courte
+- [FFI](#ffi)  ouvre des nouvelles possibilités de création des extensions en PHP
+- [Dépréciation](#depreciation-balise-d-ouverture) de l'ouverture de balise PHP courte
+- Opérateur de décomposition [de tableaux](#operateur-de-decomposition)
+- Et bien plus encore
 
 
 ## Fonctions fléchées [RFC](https://wiki.php.net/rfc/arrow_functions_v2) {#fonctions-flechees}
