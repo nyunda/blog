@@ -53,18 +53,6 @@ Mais, c’est possible d’avoir une carte sans comptes bancaire. Il suffit de v
 
 Vous pouvez ajouter votre carte ou utiliser Paypal pour déposer au minimum **$10** dans votre compte pour utilisation ultérieure, et compléter cette partie. N’oubliez pas que si vous avez utilisé le lien présent en début de cet article, vous recevrez **$50** de bonus pour tester leurs services.
 
-<div>
-	<ins class="adsbygoogle"
-	    style="display:block"
-	    data-ad-client="ca-pub-9554638137229612"
-	    data-ad-slot="9573950571"
-	    data-ad-format="auto"
-	    data-full-width-responsive="true"></ins>
-	<script>
-	    (adsbygoogle = window.adsbygoogle || []).push({});
-	</script>
-</div>
-
 ### 3. Créer une instance serveur
 
 Vous pouvez maintenant créer et déployer une nouvelle instance serveur en cliquant sur l’onglet **Products** à gauche de l’écran.
@@ -79,14 +67,6 @@ Cliquez sur l’icône + pour démarrer les procédures [Icône plus](/assets/im
 
 2. Sélectionnez à présent le type de serveur à créer. Vous pouvez choisir le système d’exploitation à installer et la version ; dans mon cas, je choisi Ubuntu 19.04 x64.
 
-[![Server type](/assets/img/server_type.png)](/assets/img/server_type.png)
-
-3. Les étapes 4, 5 et 6 sont optionnelles. Mais, les fonctionnalités qui y sont proposées peuvent vous être utiles. Dans le cas présent, nous passons seulement. Nous précisons quand même le Nom d’hôte du serveur (Server Hostname) et le Label
-
-4. Nous pouvons finalement cliquer sur le bouton Deploy Now pour créer et déployer notre serveur.
-
-[![Server type](/assets/img/hostname.png)](/assets/img/hostname.png)
-
 <div>
 	<ins class="adsbygoogle"
 	    style="display:block"
@@ -98,6 +78,14 @@ Cliquez sur l’icône + pour démarrer les procédures [Icône plus](/assets/im
 	    (adsbygoogle = window.adsbygoogle || []).push({});
 	</script>
 </div>
+
+[![Server type](/assets/img/server_type.png)](/assets/img/server_type.png)
+
+3. Les étapes 4, 5 et 6 sont optionnelles. Mais, les fonctionnalités qui y sont proposées peuvent vous être utiles. Dans le cas présent, nous passons seulement. Nous précisons quand même le Nom d’hôte du serveur (Server Hostname) et le Label
+
+4. Nous pouvons finalement cliquer sur le bouton Deploy Now pour créer et déployer notre serveur.
+
+[![Server type](/assets/img/hostname.png)](/assets/img/hostname.png)
 
 ### 4. Accéder à la Console
 

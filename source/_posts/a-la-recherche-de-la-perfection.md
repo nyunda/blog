@@ -20,6 +20,12 @@ Le vrai et big problème, ce que je cherche la perfection comme rien au monde. B
 
 Je voulais délivrer quelque chose de beau, de meilleur. Réaliser quelque chose correspondant au meilleur de mes possibilités, ce que je peux faire de mieux.
 
+C'est formidable, c'est même parfait... 😂, mais pour quelqu'un qui débute comme moi, le dilemme auquel faire face, ce qu'en réalité, j'apprend tout les jours, je découvre des nouvelles pratiques, et ce qui pouvait sembler parfait ne l'est plus.
+
+En tenant compte de cette info, comment pourrais-je arriver à concrétiser un projet en cherchant à produire quelque chose correspondant au meilleur de mes capacités ? Sincèrement, je n'en ai aucune idée.
+
+C'est le facteur clé qui a freiné mon progrès en tant que développeur. Je ne savais mettre fin à une itération et passer à la suivante. J'avais du mal à dire que c'était assez et qu'il fallait avancer.
+
 <div>
 	<ins class="adsbygoogle"
 	    style="display:block"
@@ -31,12 +37,6 @@ Je voulais délivrer quelque chose de beau, de meilleur. Réaliser quelque chose
 	    (adsbygoogle = window.adsbygoogle || []).push({});
 	</script>
 </div>
-
-C'est formidable, c'est même parfait... 😂, mais pour quelqu'un qui débute comme moi, le dilemme auquel faire face, ce qu'en réalité, j'apprend tout les jours, je découvre des nouvelles pratiques, et ce qui pouvait sembler parfait ne l'est plus.
-
-En tenant compte de cette info, comment pourrais-je arriver à concrétiser un projet en cherchant à produire quelque chose correspondant au meilleur de mes capacités ? Sincèrement, je n'en ai aucune idée.
-
-C'est le facteur clé qui a freiné mon progrès en tant que développeur. Je ne savais mettre fin à une itération et passer à la suivante. J'avais du mal à dire que c'était assez et qu'il fallait avancer.
 
 ## Et ça peut devenir stupide…
 
@@ -56,8 +56,6 @@ En tant que développeur, peu importe le niveau que l'on a atteint, nous appreno
 
 Plus facile à dire qu'à faire. Pour un développeur junior ou un aspirant développeur, c'est difficile de passer à l’étape suivante. En réalité, à moins que votre code ne soit révisé, vous n'avez aucune idée de ce qui est réellement bon ou mauvais comme concept. Tant que ça marche, il faut apprendre à avancer.
 
-Mon conseil est donc celui-ci: quand on apprend, ou débute, et que l'on soit junior dans le domaine, le mieux à faire est de créer quelque chose jusqu'à ce que ça marche comme souhaité et paraisse décent, alors passer directement à l'itération suivante. Ne pas regarder derrière à la rechercher d'une certaine perfection, faire marcher le code, et avancer.
-
 <div>
 	<ins class="adsbygoogle"
 	    style="display:block"
@@ -69,6 +67,8 @@ Mon conseil est donc celui-ci: quand on apprend, ou débute, et que l'on soit ju
 	    (adsbygoogle = window.adsbygoogle || []).push({});
 	</script>
 </div>
+
+Mon conseil est donc celui-ci: quand on apprend, ou débute, et que l'on soit junior dans le domaine, le mieux à faire est de créer quelque chose jusqu'à ce que ça marche comme souhaité et paraisse décent, alors passer directement à l'itération suivante. Ne pas regarder derrière à la rechercher d'une certaine perfection, faire marcher le code, et avancer.
 
 Il y a des choses bien plus grandes, ou plus intéressantes que tu peux découvrir, ou sur lequel tu peux travailler que de traînailler sur son code à la recherche d'une perfection absolue. **Stagne celui qui cherche la perfection**.
 

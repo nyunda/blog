@@ -96,18 +96,6 @@ Une exception est faite lorsque l'on utilise le mot clé  `$this`, lequel agit d
 array_map(fn($x) => $x * $this->increment, $nombres);
 ```
 
-<div>
-	<ins class="adsbygoogle"
-	    style="display:block"
-	    data-ad-client="ca-pub-9554638137229612"
-	    data-ad-slot="9573950571"
-	    data-ad-format="auto"
-	    data-full-width-responsive="true"></ins>
-	<script>
-	    (adsbygoogle = window.adsbygoogle || []).push({});
-	</script>
-</div>
-
 ## Possibilités à venir
 
 La possibilité d'écrire sur plusieurs lignes est à venir. Une autre idée serait la possibilité d'utiliser les fonctions fléchées pour les méthodes de classes, comme les getters et setters:

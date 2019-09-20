@@ -18,18 +18,6 @@ Je suis un développeur paresseux, oui… Quand on peut automatiser des tâches,
 
 [![Laragon Site](/assets/img/laragon-site.png)](/assets/img/laragon-site.png)
 
-<div>
-	<ins class="adsbygoogle"
-	    style="display:block"
-	    data-ad-client="ca-pub-9554638137229612"
-	    data-ad-slot="9573950571"
-	    data-ad-format="auto"
-	    data-full-width-responsive="true"></ins>
-	<script>
-	    (adsbygoogle = window.adsbygoogle || []).push({});
-	</script>
-</div>
-
 ## 1. Rapidité d’exécution et de démarrage de projets
 
 Laragon fait bien son travail, et avec une vitesse phénoménale, c’est extraordinaire. Bien qu’il n’apporte pas toutes les fonctionnalités qui puissent exister, Laragon gagne ses combats face à ses concurrents : **EasyPHP**, **Wamp**, **Xampp**, **Bitnami**, etc. En plus d’être rapide, Laragon vous permet de créer vos projets en un clic, que ce soit Laravel, WordPress, Symfony, Drupal, etc.
@@ -44,14 +32,6 @@ Hackable ou customisable, Laragon vous donne la possibilité de facilement mettr
 
 ## 4. Laragon vient avec une console (terminal) qui nous fait oublier Linux
 
-Peut-être pas oublier totalement Linux, mais un peu. L’utilitaire **Cmder**, qui vient par défaut avec Laragon est très intéressant pour ceux qui veulent profiter des fonctionnalités qu’offrent Bash, console principale sur Linux. Vous avec même un gestionnaire SSH à portée de main, et le gestionnaire de versions GIT. Difficile de revenir à CMD après avoir gouté à Cmder. Et Laragon vous l’apporte sans vous demander quoi que ce soit.
-
-[![Terminal Laragon](/assets/img/laragon-terminal.png)](/assets/img/laragon-terminal.png)
-
-## 5.	Laragon n’est plus dédié à PHP et Laravel
-
-Ça l’était au départ, mais plus maintenant. Avec l’apport de beaucoup des contributeurs à ce projet, vous pouvez maintenant gérer vos projet Go, Java, Python, Ruby, NodeJs.
-
 <div>
 	<ins class="adsbygoogle"
 	    style="display:block"
@@ -63,6 +43,14 @@ Peut-être pas oublier totalement Linux, mais un peu. L’utilitaire **Cmder**, 
 	    (adsbygoogle = window.adsbygoogle || []).push({});
 	</script>
 </div>
+
+Peut-être pas oublier totalement Linux, mais un peu. L’utilitaire **Cmder**, qui vient par défaut avec Laragon est très intéressant pour ceux qui veulent profiter des fonctionnalités qu’offrent Bash, console principale sur Linux. Vous avec même un gestionnaire SSH à portée de main, et le gestionnaire de versions GIT. Difficile de revenir à CMD après avoir gouté à Cmder. Et Laragon vous l’apporte sans vous demander quoi que ce soit.
+
+[![Terminal Laragon](/assets/img/laragon-terminal.png)](/assets/img/laragon-terminal.png)
+
+## 5.	Laragon n’est plus dédié à PHP et Laravel
+
+Ça l’était au départ, mais plus maintenant. Avec l’apport de beaucoup des contributeurs à ce projet, vous pouvez maintenant gérer vos projet Go, Java, Python, Ruby, NodeJs.
 
 ## 6.	Et bien d’autres outils
 

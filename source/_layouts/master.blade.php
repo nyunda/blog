@@ -64,10 +64,15 @@
         </main>
 
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
+            {{-- <script async src='https://cse.google.com/cse.js?cx=partner-pub-9554638137229612:5321830470'></script> --}}
+
             <ul class="flex flex-col md:flex-row justify-center">
                 <li class="md:mr-2" style="list-style-type: none;">
                     &copy; <a href="https://nyunda.dev" title="Daniel Rubango Blog">NYUNDA.DEV</a> {{ date('Y') }}.
                 </li>
+                {{-- <li class="md:mr-2" style="list-style-type: none;">
+                    <div class="gcse-searchbox-only"></div>
+                </li> --}}
             </ul>
         </footer>
 
