@@ -5,6 +5,7 @@ type: article
 title: Créer un site statique à l’aide de Jigsaw
 date: 2019-09-20
 description: Créer un site web statique n'a jamais été aussi facile pour les développeurs qui veulent profiter des automatismes tout en restant proche de l'envoronnement Laravel. Cet article vous montre comment débuter avec Jigsaw
+cover_image: /assets/img/jigsaw-article.jpg
 social_image: /assets/img/jigsaw-article.jpg
 featured: true
 categories: [php, developpement, laravel]
