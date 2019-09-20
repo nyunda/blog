@@ -25,6 +25,18 @@ Voici le requis pour pouvoir profiter de la puissance de ce framework pour sites
 
 Si vous êtes sur Windows, vous pouvez vous faciliter la tâche en utilisant Laragon, l’utilitaire pour environnement de développement local, qui vous apporte **PHP 7.3**, **Node** et **npm** ou **yarn**.
 
+<div>
+	<ins class="adsbygoogle"
+		style="display:block; text-align:center;"
+		data-ad-layout="in-article"
+		data-ad-format="fluid"
+		data-ad-client="ca-pub-9554638137229612"
+		data-ad-slot="7099792489"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
+
 J’ai écrit un article présentant **Laragon**, et comment vous pouvez vous en procurer :
 
 > [Pourquoi choisir Laragon pour son environnement de développement local](/blog/pourquoi-choisir-laragon-pour-environnement-de-developpement)
@@ -36,6 +48,7 @@ $  mkdir mon_blog & cd mon_blog
 $  composer require tightenco/jigsaw
 $  .\vendor\bin\jigsaw init
 ```
+
 Pour l’initialisation d’un blog ou une documentation pour un projet, utilisez les commandes suivantes :
 
 `.\vendor\bin\jigsaw init blog` ou `.\vendor\bin\jigsaw init doc`
@@ -49,21 +62,21 @@ $  npm run serve
 
 L’exécution de la deuxième commande ouvrira directement votre navigateur principal et vous exécutera le site à l’adresse `http://localhost:8000`, et le site fonctionnant correctement.
 
-<div>
-	<ins class="adsbygoogle"
-	    style="display:block"
-	    data-ad-client="ca-pub-9554638137229612"
-	    data-ad-slot="9573950571"
-	    data-ad-format="auto"
-	    data-full-width-responsive="true"></ins>
-	<script>
-	    (adsbygoogle = window.adsbygoogle || []).push({});
-	</script>
-</div>
-
 ## Configuration du site
 
 Les premières modifications s'effectuent à partir du fichier `config.php` (pour la config locale) et `config.production.php` (pour la config du site en ligne) se trouvant à la racine du projet.
+
+<div>
+	<ins class="adsbygoogle"
+		style="display:block; text-align:center;"
+		data-ad-layout="in-article"
+		data-ad-format="fluid"
+		data-ad-client="ca-pub-9554638137229612"
+		data-ad-slot="7099792489"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
 
 La modification du modèle ou template de pages et le contenu est facile. Dans l’arborescence du projet initialisé, vous trouverez le dossier `\source\` et ensuite le dossier `\_layouts\`, dans lequel vous trouvez le fichier `master.blade.php` (fichier modèle de base pour les pages).
 
