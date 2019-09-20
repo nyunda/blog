@@ -69,13 +69,13 @@ Les premières modifications s'effectuent à partir du fichier `config.php` (pou
 
 <div>
 	<ins class="adsbygoogle"
-		style="display:block; text-align:center;"
-		data-ad-layout="in-article"
-		data-ad-format="fluid"
-		data-ad-client="ca-pub-9554638137229612"
-		data-ad-slot="7099792489"></ins>
+	    style="display:block"
+	    data-ad-client="ca-pub-9554638137229612"
+	    data-ad-slot="9573950571"
+	    data-ad-format="auto"
+	    data-full-width-responsive="true"></ins>
 	<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
+	    (adsbygoogle = window.adsbygoogle || []).push({});
 	</script>
 </div>
 
@@ -91,7 +91,7 @@ Après modification, il suffit de recompiler par `npm run build` et `npm run ser
 
 Si vous êtes satisfait du résultat, vous pouvez lancer la commande `npm run production` qui lancera la compilation de votre projet, réduisant la taille des fichiers css et js, et générant les pages pour une publication sur votre serveur, le dossier public. Le résultat de cette commande, vous pouvez le trouver dans le dossier `\build_production`.
 
-Pour des détails beaucoup plus complets à ce sujet, prière de jeter un coup d’œil sur la documentation officielle du framework [Jigsaw](https://jigsaw.tighten.co/ et la suivre pas à pas.
+Pour des détails beaucoup plus complets à ce sujet, prière de jeter un coup d’œil sur la documentation officielle du framework [Jigsaw](https://jigsaw.tighten.co/) et la suivre pas à pas.
 
 
 S'il y a des questions, je reste joignable sur cette [page](/contact/).
