@@ -45,8 +45,6 @@
         @endif
     @endforeach
 
-    <hr class="border-b my-6">
-
     <ins class="adsbygoogle"
         style="display:block"
         data-ad-client="ca-pub-9554638137229612"
