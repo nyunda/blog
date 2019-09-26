@@ -6,7 +6,7 @@ title: Pourquoi chercher la perfection peut retarder ton évolution si tu veux d
 date: 2019-06-14
 description: Comment le perfectionnisme empêche d'évoluer ? Comment y rémedier ? Voici la réponse.
 cover_image:
-featured: true
+featured: false
 categories: [autres]
 ---
 

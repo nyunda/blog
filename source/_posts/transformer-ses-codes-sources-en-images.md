@@ -7,7 +7,7 @@ date: 2019-09-01
 description: Présentation d'un outil permettant de transformer n'importe quel code source en images que l'on peut partager sur internet facilement
 cover_image:
 social_image: /assets/img/kodeshot-2.png
-featured: true
+featured: false
 categories: [autres, developpement]
 ---
 
