@@ -5,7 +5,7 @@ type: article
 title: Quelle quantité de JavaScript a-t-on vraiment besoin d’écrire pour un site web ?
 date: 2019-09-26
 description: A-t-on vraiment besoin du JavaScript en tant que développeur Web ? Il y a plusieurs années, cela n’était vraiment pas requis, puisque le besoin en expérience utilisateur n’était pas aussi important qu’aujourd’hui. Cet artice explique pourquoi il est important de tenir compte du JavaScript aujoud'hui pour offir une expérience meilleure à nos utilisateurs.
-cover_image:
+social_image: /assets/img/article-12.png
 featured: true
 categories: [autres, javascript, developpement]
 ---
