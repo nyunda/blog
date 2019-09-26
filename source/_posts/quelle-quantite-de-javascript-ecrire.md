@@ -16,6 +16,19 @@ On peut donc dire qu’une pauvre implémentation du JavaScript ou un manque de 
 
 Plusieurs options sont offertes pour la mise en place d’une expérience de qualité : écriture du code JavaScript pur tout en dépendant totalement du rendu serveur, l’utilisation d’un framework frontend, ou encore, la création d’une SPA (single page application : application en une seule page, ne se chargeant qu’une seule fois).
 
+<div>
+	<!-- Horizontale -->
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-9554638137229612"
+        data-ad-slot="7781117056"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
 ## JavaScript pur et rendu serveur
 
 Produire tout le code et traiter les données à partir du serveur, puis envoyer le résultat au client. Dans ce cas précis, on ne se focalise que sur la mise en place des données sur la page, on les reçoit et les affiche. L’écriture du JavaScript pur a pour avantage de rendre notre code totalement indépendant d’un quelconque framework.
@@ -31,6 +44,19 @@ Mais, l’avantage avec les frameworks modernes, c’est surtout dans l’organi
 ## Single page applications
 
 Quand on parle des single page applications, on fait surtout allusion à ces applications pour lesquelles les styling, les interactions et la présentation des données sont effectués côté client ou par le client, et donc le JavaScript. Le serveur ne sert qu’à disponibiliser une API, et n’a aucune idée de comment l’interface se présente.
+
+<div>
+	<!-- Horizontale -->
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-9554638137229612"
+        data-ad-slot="7781117056"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
 
 Une SPA apporte donc une expérience utilisateur bien plus évoluée, mais pour un coût important techniquement. Ainsi, leur utilisation se résume pour des cas bien particuliers : la consommation des API conçu pour les applications mobiles, la prise en charge du hors ligne, etc. Difficile à conseiller si l’on n’a pas des très bonnes raisons, surtout parce que cela ajoute une complexité énorme au projet.
 

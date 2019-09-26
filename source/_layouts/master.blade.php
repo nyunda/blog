@@ -61,18 +61,18 @@
 
         <main role="main" class="flex-auto w-full container max-w-5xl mx-auto py-16 px-6">
             @yield('body')
+
+            <div class="mb-6">
+                <script async src="https://cse.google.com/cse.js?cx=009864174197493054768:1hsb1rbf1lv"></script>
+                <div class="gcse-search"></div>
+            </div>
         </main>
 
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
-            {{-- <script async src='https://cse.google.com/cse.js?cx=partner-pub-9554638137229612:5321830470'></script> --}}
-
             <ul class="flex flex-col md:flex-row justify-center">
                 <li class="md:mr-2" style="list-style-type: none;">
                     &copy; <a href="https://nyunda.dev" title="Daniel Rubango Blog">NYUNDA.DEV</a> {{ date('Y') }}.
                 </li>
-                {{-- <li class="md:mr-2" style="list-style-type: none;">
-                    <div class="gcse-searchbox-only"></div>
-                </li> --}}
             </ul>
         </footer>
 

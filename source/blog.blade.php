@@ -6,7 +6,13 @@ pagination:
 @extends('_layouts.master')
 
 @push('googleads')
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9554638137229612",
+            enable_page_level_ads: true
+        });
+    </script>
 @endpush
 
 @push('meta')
@@ -32,12 +38,13 @@ pagination:
             @endif
         </div>
 
-        <ins class="adsbygoogle mt-6"
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
             style="display:block"
+            data-ad-format="fluid"
+            data-ad-layout-key="-5f+cn+50-cx-11"
             data-ad-client="ca-pub-9554638137229612"
-            data-ad-slot="9573950571"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
+            data-ad-slot="2336739750"></ins>
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
@@ -52,6 +59,17 @@ pagination:
             <hr class="border-b my-6">
         @endif
     @endforeach
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-format="fluid"
+        data-ad-layout-key="-5f+cn+50-cx-11"
+        data-ad-client="ca-pub-9554638137229612"
+        data-ad-slot="2336739750"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 
     @if ($pagination->pages->count() > 1)
         <nav class="flex text-base my-8">
