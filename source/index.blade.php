@@ -11,16 +11,6 @@
 @endpush
 
 @section('body')
-    <ins class="adsbygoogle -mt-6"
-        style="display:block"
-        data-ad-client="ca-pub-9554638137229612"
-        data-ad-slot="9573950571"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-
     @foreach ($posts->where('featured', true) as $featuredPost)
         <div class="w-full mb-6">
             @if ($featuredPost->cover_image)
@@ -84,14 +74,4 @@
             <hr class="w-full border-b mt-2 mb-6">
         @endif
     @endforeach
-
-    <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-9554638137229612"
-        data-ad-slot="9573950571"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
 @stop
