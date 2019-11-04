@@ -56,17 +56,14 @@ Un de gros avantage de ce logiciel, qui lui donne le privilège d’être un cou
 
 ## Voici la procèdure
 **1.	Se diriger, depuis son navigateur internet sur Youtube ou autre plateforme pris en charge**
-
 [![Page d'accueil Youtube](/assets/img/4k-youtube.png)](/assets/img/4k-youtube.png)
 
 
 **2.	Choisir une playlist, dans le cas où l’on souhaiterait télécharger une liste de lecture existante ou carrément essayer d’en créer une nouvelle**
-
 [![Choix playlist](/assets/img/4K-playlist.png)](/assets/img/4K-playlist.png)
 
 
 **3.	Copier le lien menant vers la liste de lecture depuis le barre d’adresse et le coller dans l’application**
-
 [![Clic sur télécharger](/assets/img/4k-clic.png)](/assets/img/4k-clic.png)
 
 <div>
@@ -83,17 +80,14 @@ Un de gros avantage de ce logiciel, qui lui donne le privilège d’être un cou
 </div>
 
 **4.	Dans 4K Video Downloader, cliquer sur coller le lien et attendre que le chargement soit fait**
-
 [![Selection vidéos 1](/assets/img/4k-selection-1.png)](/assets/img/4k-selection-1.png)
 
 
 **5.	Choisir le format et la taille des vidéos à télécharger**
-
 [![Selection vidéos 2](/assets/img/4k-selection-2.png)](/assets/img/4k-selection-2.png)
 
 
 **6.	Cliquer sur télécharger et se régaler**
-
 [![Finalisation](/assets/img/4k-finalisation.png)](/assets/img/4k-fincalisation.png)
 
 <div>
