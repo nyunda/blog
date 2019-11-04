@@ -79,5 +79,8 @@
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
         @stack('scripts')
+
+        <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+        <script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us5.list-manage.com","uuid":"f5d6138f03f658f83bde154f1","lid":"733576c16d","uniqueMethods":true}) })</script>
     </body>
 </html>
