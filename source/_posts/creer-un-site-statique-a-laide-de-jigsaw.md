@@ -7,7 +7,7 @@ date: 2019-09-20
 description: Créer un site web statique n'a jamais été aussi facile pour les développeurs qui veulent profiter des automatismes tout en restant proche de l'envoronnement Laravel. Cet article vous montre comment débuter avec Jigsaw
 cover_image: /assets/img/jigsaw-article.png
 social_image: /assets/img/jigsaw-article.png
-featured: true
+featured: false
 categories: [php, developpement, laravel]
 ---
 

@@ -6,7 +6,7 @@ title: Quelle quantité de JavaScript a-t-on vraiment besoin d’écrire pour un
 date: 2019-09-26
 description: A-t-on vraiment besoin du JavaScript en tant que développeur Web ? Il y a plusieurs années, cela n’était vraiment pas requis, puisque le besoin en expérience utilisateur n’était pas aussi important qu’aujourd’hui. Cet artice explique pourquoi il est important de tenir compte du JavaScript aujoud'hui pour offir une expérience meilleure à nos utilisateurs.
 social_image: /assets/img/article-12.png
-featured: true
+featured: false
 categories: [autres, javascript, developpement]
 ---
 
@@ -37,7 +37,7 @@ Un de gros désavantage de cette pratique, ce que cela nous prend du temps et l�
 
 ## Utilisation des frameworks
 
-Le système des composants dans les frameworks modernes apportent une meilleure organisation au code et de l’encapsulation. C’est très pratique et c’est beaucoup plus simple à gérer dans le temps. Dans le cas où l’on dépend du rendu produit par le serveur, on se retrouve dans la même situation que lors de l’utilisation du JavaScript pur, puisqu’on laisse le serveur faire presque tout le travail. 
+Le système des composants dans les frameworks modernes apportent une meilleure organisation au code et de l’encapsulation. C’est très pratique et c’est beaucoup plus simple à gérer dans le temps. Dans le cas où l’on dépend du rendu produit par le serveur, on se retrouve dans la même situation que lors de l’utilisation du JavaScript pur, puisqu’on laisse le serveur faire presque tout le travail.
 
 Mais, l’avantage avec les frameworks modernes, c’est surtout dans l’organisation du code JavaScript, mais quand on commence à tout déléguer aux frameworks, et qu’on laisse le serveur s’occuper du traitement brut des données, on finit par tomber dans la création d’une SPA.
 

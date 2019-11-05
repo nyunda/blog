@@ -5,7 +5,7 @@ type: article
 title: Comment profiter de toutes les vidéos de Youtube sur son PC à l’aide 4K Video Downloader ?
 date: 2019-11-04
 description: Présentation de 4K Video Downloader, un outils permettant de télécharger une ou plusieurs vidéos en même temps issues de Youtube ou d'une autre plateforme similaire.
-cover_image: 
+cover_image:
 social_image: /assets/img/4k-cove-image.png
 featured: true
 categories: [autres]
@@ -16,19 +16,6 @@ Je n’ai pas l’habitude de présenter des applications, mais celle-ci sort du
 [4K Video Downloader](https://www.4kdownload.com/fr), comme son nom l’indique, est un logiciel qui permet de télécharger sur votre ordinateur, des vidéos issues des plateformes de streaming du Web. Je vous présente dans les lignes qui suivent ses différentes fonctionnalités et comment vous pourriez l’utiliser.
 
 C’est vrai qu’il est bien plus facile aujourd’hui d’avoir accès à internet qu’il y a plusieurs années, surtout ici chez nous en République Démocratique du Congo. Mais un problème demeure, l’accès à internet haut débit en permanence. Pour pallier à ce problème, bien des solutions nous sont offertes, notamment celle nous permettant d’enregistrer directement les vidéos sélectionnées pour les regarder hors ligne à l’aide de l’application mobile de Youtube.
-
-<div>
-	<!-- Horizontal -->
-    <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-9554638137229612"
-        data-ad-slot="6148951085"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-</div>
 
 Mais, comment le faire depuis son ordinateur, ou comment avoir directement accès au fichier pour le partager à un ami ?
 
@@ -58,15 +45,15 @@ Un de gros avantage de ce logiciel, qui lui donne le privilège d’être un cou
 ## Voici la procèdure
 **1.	Se diriger, depuis son navigateur internet sur Youtube ou autre plateforme pris en charge**
 [![Page d'accueil Youtube](/assets/img/4k-youtube.png)](/assets/img/4k-youtube.png)
-
+---
 
 **2.	Choisir une playlist, dans le cas où l’on souhaiterait télécharger une liste de lecture existante ou carrément essayer d’en créer une nouvelle**
 [![Choix playlist](/assets/img/4K-playlist.png)](/assets/img/4K-playlist.png)
-
+---
 
 **3.	Copier le lien menant vers la liste de lecture depuis le barre d’adresse et le coller dans l’application**
 [![Clic sur télécharger](/assets/img/4k-clic.png)](/assets/img/4k-clic.png)
-
+---
 <div>
 	<!-- Horizontal -->
     <ins class="adsbygoogle"
@@ -82,27 +69,15 @@ Un de gros avantage de ce logiciel, qui lui donne le privilège d’être un cou
 
 **4.	Dans 4K Video Downloader, cliquer sur coller le lien et attendre que le chargement soit fait**
 [![Selection vidéos 1](/assets/img/4k-selection-1.png)](/assets/img/4k-selection-1.png)
-
+---
 
 **5.	Choisir le format et la taille des vidéos à télécharger**
 [![Selection vidéos 2](/assets/img/4k-selection-2.png)](/assets/img/4k-selection-2.png)
-
+---
 
 **6.	Cliquer sur télécharger et se régaler**
 [![Finalisation](/assets/img/4k-finalisation.png)](/assets/img/4k-fincalisation.png)
-
-<div>
-	<!-- Horizontal -->
-    <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-9554638137229612"
-        data-ad-slot="6148951085"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-</div>
+---
 
 Vous avez même la possibilité de télécharger les sous-titre avec les vidéos et l’ensemble des vidéos d’une chaine.
 
