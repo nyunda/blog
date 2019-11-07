@@ -7,7 +7,7 @@ date: 2019-09-12
 description: Ce article vous présente quelques étapes à suivre pour créer un serveur cloud personnel sur Vultr facilement et à moindre coût
 cover_image: /assets/img/article-10.png
 social_image: /assets/img/article-10.png
-featured: true
+featured: false
 categories: [autres]
 ---
 
