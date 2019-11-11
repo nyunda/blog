@@ -34,6 +34,8 @@
 
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+
+        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/f5d6138f03f658f83bde154f1/3a4bd55b9bcdaba01d25869da.js");</script>
     </head>
 
     <body class="flex flex-col justify-between min-h-screen text-gray-800 leading-normal font-sans">
