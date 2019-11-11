@@ -8,7 +8,7 @@ description: Présentation de 4K Video Downloader, un outils permettant de tél�
 cover_image:
 social_image: /assets/img/4k-cove-image.png
 featured: true
-categories: [autres]
+categories: [autres, windows]
 ---
 
 Je n’ai pas l’habitude de présenter des applications, mais celle-ci sort du lot. La deuxième application que je présente sur ce site, la première étant [Laragon](/blog/pourquoi-choisir-laragon-pour-environnement-de-developpement). [4K Video Downloader](https://www.4kdownload.com/fr) est en fait mon coup de cœur pour ce qui est des utilitaires de téléchargement de contenu Youtube et des bien de plateforme de streaming.

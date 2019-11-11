@@ -7,7 +7,7 @@ date: 2019-09-17
 description: Après avoir travaillé sur bien des projets web à l’aide des plusieurs utilitaires pour environnement de développement local, je vous présente Laragon, un utilitaire presque complet et très utile, et vous présente aussi quelques-unes de ses fonctionnalités
 cover_image: /assets/img/laragon-article.png
 featured: false
-categories: [developpement, autres]
+categories: [developpement, autres, windows]
 ---
 
 J’ai travaillé sur bien des projets web, utilisé beaucoup d’utilitaires me permettant d’avoir PHP, MySQL et Apache rapidement, et tout allait bien pour moi. Puis, mes besoins ont changé, et ma demande aussi. J’avais besoin d’un équivalent à Laravel Valet pour les utilisateurs Mac sur Windows.
