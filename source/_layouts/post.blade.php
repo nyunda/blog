@@ -11,7 +11,7 @@
 
 @section('body')
 <div class="md:w-2/3 mx-auto">
-    <div class="mb-6">
+    <div class="mt-1 mb-4">
         <script async src="https://cse.google.com/cse.js?cx=009864174197493054768:1hsb1rbf1lv"></script>
         <div class="gcse-search"></div>
     </div>
