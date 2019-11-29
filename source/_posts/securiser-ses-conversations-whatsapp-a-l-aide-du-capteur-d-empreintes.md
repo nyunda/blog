@@ -5,7 +5,7 @@ type: article
 title: Comment sécuriser ses conversations WhatsApp à l'aide du capteur d'empreintes
 date: 2019-11-07
 description: Présentation des procédés à suivre pour sécuriser l'accès à ses conversations WhatsApp à l'aide du capteur d'empreintes digital de son smartphone.
-cover_image: /assets/img/whatsapp.jpg
+cover_image: 
 social_image: /assets/img/whatsapp.jpg
 featured: true
 categories: [autres]

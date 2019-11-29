@@ -5,7 +5,7 @@ type: article
 title: 10 conseils essentiels pour rédiger un CV de qualité
 date: 2019-09-10
 description: Présentation de quelques conseils essentiels pour la rédaction d'un CV remarquable, CV qui vous permet de vous demarquer des autres postulants comme vous à un poste disponible.
-cover_image: /assets/img/cv-0.png
+cover_image: 
 social_image: /assets/img/cv-0.png
 featured: true
 categories: [autres]

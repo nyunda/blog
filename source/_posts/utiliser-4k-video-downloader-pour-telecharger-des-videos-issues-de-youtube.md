@@ -7,7 +7,7 @@ date: 2019-11-04
 description: Présentation de 4K Video Downloader, un outils permettant de télécharger une ou plusieurs vidéos en même temps issues de Youtube ou d'une autre plateforme similaire.
 cover_image:
 social_image: /assets/img/4k-cove-image.png
-featured: true
+featured: false
 categories: [autres, windows]
 ---
 
