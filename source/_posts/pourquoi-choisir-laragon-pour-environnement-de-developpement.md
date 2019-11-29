@@ -6,7 +6,7 @@ title: Pourquoi choisir Laragon pour son environnement de développement local
 date: 2019-09-17
 description: Après avoir travaillé sur bien des projets web à l’aide des plusieurs utilitaires pour environnement de développement local, je vous présente Laragon, un utilitaire presque complet et très utile, et vous présente aussi quelques-unes de ses fonctionnalités
 cover_image: /assets/img/laragon-article.png
-featured: false
+featured: true
 categories: [developpement, autres, windows]
 ---
 

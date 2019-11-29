@@ -10,7 +10,7 @@ featured: true
 categories: [php, developpement]
 ---
 
-- Date de sortie pas encore confirmée, mais sans doutes aux allentours de Décembre 2019...
+- Date de sortie : 28 Novembre 2019
 - [Fonctions fléchées](#fonctions-flechees) pour des fonctions en une seule ligne
 - [Préchargement](#prechargement) pour une amélioration des performances
 - [Typage](#typage-de-proprietes) dans les classes
@@ -32,7 +32,7 @@ array_map(function (User $user) {
 ```
 
 ```php
-array_map(fn(User $user) => $user->id, $users)
+array_map(fn(User $u) => $u->id, $users)
 ```
 
 Tout comme dans le JavaScript, les fonctions fléchées ont quelques particularités:
@@ -48,13 +48,16 @@ Un article beaucoup plus détaillé concernant les fonctions fléchées est en p
 Les variables de classes pourront être typées :
 
 ```php
+class Foo {}
+
 class A
 {
-    public string $nom;
-
-    public Foo $bar;
+	public string $nom;
+	public Foo $bar;
 }
 ```
+
+Mais, il est à noter que l'autoloading devra être activé ou que la classe `Foo` devra être declarée plus tôt pour qu'elle puisse être utilisée comme type dans l'exemple ci-haut.
 
 <div>
 	<ins class="adsbygoogle"

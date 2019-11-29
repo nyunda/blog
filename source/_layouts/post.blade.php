@@ -11,6 +11,11 @@
 
 @section('body')
 <div class="md:w-2/3 mx-auto">
+    <div class="mb-6">
+        <script async src="https://cse.google.com/cse.js?cx=009864174197493054768:1hsb1rbf1lv"></script>
+        <div class="gcse-search"></div>
+    </div>
+
     @if ($page->cover_image)
         <img src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2">
     @endif

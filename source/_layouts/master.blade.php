@@ -63,11 +63,6 @@
 
         <main role="main" class="flex-auto w-full container max-w-5xl mx-auto py-16 px-6">
             @yield('body')
-
-            <div class="mb-6">
-                <script async src="https://cse.google.com/cse.js?cx=009864174197493054768:1hsb1rbf1lv"></script>
-                <div class="gcse-search"></div>
-            </div>
         </main>
 
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
